@@ -3,6 +3,12 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --glass-bg: rgba(255, 255, 255, 0.4);
+  --glass-border: rgba(255, 255, 255, 0.3);
+  --glass-shadow: rgba(31, 38, 135, 0.07);
+  --card-bg: rgba(255, 255, 255, 0.7);
+  --border-color: rgba(0, 0, 0, 0.1);
+  --text-muted: #64748b;
 }
 
 @theme inline {
@@ -13,14 +19,222 @@
 }
 
 @media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+  :root:not(.light) {
+    --background: #0f172a;
+    --foreground: #f1f5f9;
+    --glass-bg: rgba(15, 23, 42, 0.6);
+    --glass-border: rgba(255, 255, 255, 0.1);
+    --glass-shadow: rgba(0, 0, 0, 0.3);
+    --card-bg: rgba(15, 23, 42, 0.8);
+    --border-color: rgba(255, 255, 255, 0.1);
+    --text-muted: #94a3b8;
   }
+}
+
+.dark {
+  --background: #0f172a;
+  --foreground: #f1f5f9;
+  --glass-bg: rgba(15, 23, 42, 0.6);
+  --glass-border: rgba(255, 255, 255, 0.1);
+  --glass-shadow: rgba(0, 0, 0, 0.3);
+  --card-bg: rgba(15, 23, 42, 0.8);
+  --border-color: rgba(255, 255, 255, 0.1);
+  --text-muted: #94a3b8;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  min-height: 100vh;
+}
+
+/* Wallet Adapter Overrides */
+.wallet-adapter-dropdown {
+  position: relative;
+  display: inline-block;
+  z-index: 100;
+}
+
+.wallet-adapter-dropdown-list {
+  z-index: 9999 !important;
+  background: var(--card-bg) !important;
+  backdrop-filter: blur(20px) !important;
+  border: 1px solid var(--border-color) !important;
+  border-radius: 1rem !important;
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.2) !important;
+  margin-top: 0.5rem !important;
+}
+
+.wallet-adapter-dropdown-list-item {
+  color: var(--foreground) !important;
+  font-size: 0.75rem !important;
+  padding: 10px 20px !important;
+  transition: all 0.2s ease !important;
+}
+
+.wallet-adapter-dropdown-list-item:hover {
+  background: var(--glass-bg) !important;
+}
+
+/* Wallet Modal Overrides */
+.wallet-adapter-modal-wrapper {
+  z-index: 99999 !important;
+  background: var(--background) !important;
+  border: 1px solid var(--border-color) !important;
+  border-radius: 1.5rem !important;
+}
+
+.wallet-adapter-modal-overlay {
+  z-index: 99998 !important;
+  backdrop-filter: blur(8px) !important;
+}
+
+.wallet-adapter-modal-title {
+  color: var(--foreground) !important;
+  font-family: inherit !important;
+}
+
+.wallet-adapter-modal-button-close {
+  background: var(--glass-bg) !important;
+}
+
+.wallet-adapter-modal-list-item {
+  color: var(--foreground) !important;
+}
+
+.wallet-adapter-modal-list-item:hover {
+  background: var(--glass-bg) !important;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(79, 70, 229, 0.2);
+  border-radius: 10px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: rgba(79, 70, 229, 0.4);
+}
+
+.glass-panel {
+  background: var(--glass-bg);
+  backdrop-filter: blur(24px) saturate(180%);
+  -webkit-backdrop-filter: blur(24px) saturate(180%);
+  border: 1px solid var(--glass-border);
+  box-shadow: 0 8px 32px 0 var(--glass-shadow);
+  transition: all 0.3s ease;
+}
+
+@property --animation-tick {
+  syntax: '<number>';
+  inherits: false;
+  initial-value: 0;
+}
+
+@property --ring-radius {
+  syntax: '<number>';
+  inherits: false;
+  initial-value: 100;
+}
+
+@property --ring-thickness {
+  syntax: '<number>';
+  inherits: false;
+  initial-value: 600;
+}
+
+@property --ring-x {
+  syntax: '<number>';
+  inherits: false;
+  initial-value: 50;
+}
+
+@property --ring-y {
+  syntax: '<number>';
+  inherits: false;
+  initial-value: 50;
+}
+
+@property --particle-count {
+  syntax: '<number>';
+  inherits: false;
+  initial-value: 80;
+}
+
+@property --particle-rows {
+  syntax: '<number>';
+  inherits: false;
+  initial-value: 20;
+}
+
+@property --particle-size {
+  syntax: '<number>';
+  inherits: false;
+  initial-value: 2;
+}
+
+@property --particle-min-alpha {
+  syntax: '<number>';
+  inherits: false;
+  initial-value: 0;
+}
+
+@property --particle-max-alpha {
+  syntax: '<number>';
+  inherits: false;
+  initial-value: 1;
+}
+
+@keyframes ripple {
+  from {
+    --animation-tick: 0;
+  }
+
+  to {
+    --animation-tick: 1;
+  }
+}
+
+@keyframes ring {
+  from {
+    --ring-radius: 100;
+  }
+
+  to {
+    --ring-radius: 200;
+  }
+}
+
+#houdini-bg {
+  animation: ripple 6s linear infinite, ring 6s ease-in-out infinite alternate;
+}
+
+/* --- CRITICAL: FIX DEAD WALLET BUTTONS --- */
+.wallet-adapter-button-trigger,
+.safe-wallet-btn,
+.center-wallet-button {
+  position: relative !important;
+  z-index: 100 !important;
+  pointer-events: auto !important;
+  cursor: pointer !important;
+}
+
+/* Force the Modal portal to the foreground */
+.wallet-adapter-modal {
+  z-index: 99999 !important;
+}
+
+/* Fix for the Modal background being invisible or behind glass */
+.wallet-adapter-modal-overlay {
+  background: rgba(0, 0, 0, 0.5) !important;
+  z-index: 99998 !important;
 }

@@ -9,12 +9,17 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@ai-sdk/google": "^3.0.33",
+    "@ai-sdk/openai": "^3.0.36",
+    "@ai-sdk/react": "^3.0.106",
     "@solana/wallet-adapter-base": "^0.9.27",
     "@solana/wallet-adapter-react": "^0.15.39",
     "@solana/wallet-adapter-react-ui": "^0.9.39",
     "@solana/wallet-adapter-wallets": "^0.19.37",
     "@solana/web3.js": "^1.98.4",
+    "ai": "^6.0.104",
     "lucide-react": "^0.575.0",
+    "material-icons": "1.13.14",
     "next": "16.1.6",
     "react": "19.2.3",
     "react-dom": "19.2.3"

@@ -1,0 +1,6329 @@
+﻿
+> kinetic-prototype@0.1.0 build
+> next build
+
+node.exe : ΓÜá 
+Warning: Next.js 
+inferred your 
+workspace root, but it 
+may not be correct.
+At line:1 char:1
++ & "D:\Node/node.exe" 
+"D:\Node/node_modules/n
+pm/bin/npm-cli.js" run 
+bu ...
++ ~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
+~~
+    + CategoryInfo     
+         : NotSpecifi  
+  ed: (ΓÜá Warning:    
+ Ne...not be correc    
+t.:String) [], Rem    
+oteException
+    + FullyQualifiedEr 
+   rorId : NativeComm  
+  andError
+ 
+ We detected multiple 
+lockfiles and selected 
+the directory of D:\Stu
+dy\Hackathon\SAH-2.0-Ki
+netic\package-lock.json
+ as the root directory.
+ To silence this 
+warning, set 
+`turbopack.root` in 
+your Next.js config, 
+or consider removing 
+one of the lockfiles 
+if it's not needed.
+   See https://nextjs.o
+rg/docs/app/api-referen
+ce/config/next-config-j
+s/turbopack#root-direct
+ory for more 
+information.
+ Detected additional 
+lockfiles: 
+   * D:\Study\Hackathon
+\SAH-2.0-Kinetic\kineti
+c-prototype\package-loc
+k.json
+
+Γû▓ Next.js 16.1.6 (Turbopack)
+- Environments: .env.local
+
+  Creating an optimized production build ...
+Found 9 warnings while 
+optimizing generated 
+CSS:
+
+Issue #1:
+[2mΓöé           
+scroll-behavior: 
+smooth;[22m
+[2mΓöé           
+anchor-name: 
+--carousel;[22m
+[2mΓöé[22m           
+&::scroll-button(*) {
+[2mΓöå[22m           
+                 
+[33m[2m^--[22m 
+'scroll-button' is not 
+recognized as a valid 
+pseudo-element. Did 
+you mean 
+':scroll-button' 
+(pseudo-class) or is 
+this a typo?[39m
+[2mΓöå[22m
+[2mΓöé             
+position: fixed;[22m
+[2mΓöé             
+position-anchor: 
+--carousel;[22m
+
+Issue #2:
+[2mΓöé             
+transition: opacity 
+0.25s ease;[22m
+[2mΓöé           
+}[22m
+[2mΓöé[22m           
+&::scroll-button(*):hov
+er {
+[2mΓöå[22m           
+                 
+[33m[2m^--[22m 
+'scroll-button' is not 
+recognized as a valid 
+pseudo-element. Did 
+you mean 
+':scroll-button' 
+(pseudo-class) or is 
+this a typo?[39m
+[2mΓöå[22m
+[2mΓöé             
+background: 
+#eff0f3;[22m
+[2mΓöé           
+}[22m
+
+Issue #3:
+[2mΓöé             
+background: 
+#eff0f3;[22m
+[2mΓöé           
+}[22m
+[2mΓöé[22m           
+&::scroll-button(*):dis
+abled {
+[2mΓöå[22m           
+                 
+[33m[2m^--[22m 
+'scroll-button' is not 
+recognized as a valid 
+pseudo-element. Did 
+you mean 
+':scroll-button' 
+(pseudo-class) or is 
+this a typo?[39m
+[2mΓöå[22m
+[2mΓöé             
+cursor: 
+not-allowed;[22m
+[2mΓöé             
+opacity: 0.25;[22m
+
+Issue #4:
+[2mΓöé             
+opacity: 0.25;[22m
+[2mΓöé           
+}[22m
+[2mΓöé[22m           
+&::scroll-button(left) 
+{
+[2mΓöå[22m           
+                 
+[33m[2m^--[22m 
+'scroll-button' is not 
+recognized as a valid 
+pseudo-element. Did 
+you mean 
+':scroll-button' 
+(pseudo-class) or is 
+this a typo?[39m
+[2mΓöå[22m
+[2mΓöé             
+translate: -50% 0;[22m
+[2mΓöé             
+content: 'arrow_back' 
+/ 'Previous';[22m
+
+Issue #5:
+[2mΓöé             
+content: 'arrow_back' 
+/ 'Previous';[22m
+[2mΓöé           
+}[22m
+[2mΓöé[22m           
+&::scroll-button(right)
+ {
+[2mΓöå[22m           
+                 
+[33m[2m^--[22m 
+'scroll-button' is not 
+recognized as a valid 
+pseudo-element. Did 
+you mean 
+':scroll-button' 
+(pseudo-class) or is 
+this a typo?[39m
+[2mΓöå[22m
+[2mΓöé             
+translate: 50% 0;[22m
+[2mΓöé             
+content: 
+'arrow_forward' / 
+'Next';[22m
+
+Issue #6:
+[2mΓöé           
+}[22m
+[2mΓöé           
+@media (width < 930px) 
+{[22m
+[2mΓöé[22m           
+  
+&::scroll-button(left),
+[2mΓöå[22m           
+                   
+[33m[2m^--[22m 
+'scroll-button' is not 
+recognized as a valid 
+pseudo-element. Did 
+you mean 
+':scroll-button' 
+(pseudo-class) or is 
+this a typo?[39m
+[2mΓöå[22m
+[2mΓöé             &::
+scroll-button(right) 
+{[22m
+[2mΓöé               
+position-area: center 
+center;[22m
+
+Issue #7:
+[2mΓöé           
+@media (width < 930px) 
+{[22m
+[2mΓöé             &::
+scroll-button(left),[2
+2m
+[2mΓöé[22m           
+  &::scroll-button(righ
+t) {
+[2mΓöå[22m           
+                   
+[33m[2m^--[22m 
+'scroll-button' is not 
+recognized as a valid 
+pseudo-element. Did 
+you mean 
+':scroll-button' 
+(pseudo-class) or is 
+this a typo?[39m
+[2mΓöå[22m
+[2mΓöé               
+position-area: center 
+center;[22m
+[2mΓöé               
+align-self: end;[22m
+
+Issue #8:
+[2mΓöé           
+}[22m
+[2mΓöé           
+@media (width >=930px) 
+{[22m
+[2mΓöé[22m           
+  
+&::scroll-button(left),
+[2mΓöå[22m           
+                   
+[33m[2m^--[22m 
+'scroll-button' is not 
+recognized as a valid 
+pseudo-element. Did 
+you mean 
+':scroll-button' 
+(pseudo-class) or is 
+this a typo?[39m
+[2mΓöå[22m
+[2mΓöé             &::
+scroll-button(right) 
+{[22m
+[2mΓöé               
+position-area: center 
+center;[22m
+
+Issue #9:
+[2mΓöé           
+@media (width >=930px) 
+{[22m
+[2mΓöé             &::
+scroll-button(left),[2
+2m
+[2mΓöé[22m           
+  &::scroll-button(righ
+t) {
+[2mΓöå[22m           
+                   
+[33m[2m^--[22m 
+'scroll-button' is not 
+recognized as a valid 
+pseudo-element. Did 
+you mean 
+':scroll-button' 
+(pseudo-class) or is 
+this a typo?[39m
+[2mΓöå[22m
+[2mΓöé               
+position-area: center 
+center;[22m
+[2mΓöé               
+align-self: start;[22m
+
+
+> Build error occurred
+Error: Turbopack build 
+failed with 1 errors:
+./kinetic-prototype/app
+/globals.css:2:29213
+Parsing CSS source 
+code failed
+[0m [90m 1 |[39m 
+[90m/*! tailwindcss 
+v4.2.1 | MIT License | 
+https://tailwindcss.com
+ */[39m
+[31m[1m>[22m[39m[9
+0m 2 |[39m 
+[33m@[39mlayer proper
+ties{[33m@[39msupport
+s ((([33m-[39mwebkit
+[33m-[39mhyphens[33m:
+[39mnone)) and (not (m
+argin[33m-[39mtrim[3
+3m:[39minline))) or ((
+[33m-[39mmoz[33m-[3
+9morient[33m:[39minli
+ne) and (not (color[33
+m:[39mrgb([36mfrom[3
+9m red r g b)))){[33m*
+[39m[33m,[39m[33m:
+[39mbefore[33m,[39m[
+33m:[39mafter[33m,[3
+9m[33m:[39m[33m:[39
+mbackdrop{[33m--[39mt
+w[33m-[39mtranslate[
+33m-[39mx[33m:[39m[
+35m0[39m[33m;[39m[3
+3m--[39mtw[33m-[39mt
+ranslate[33m-[39my[3
+3m:[39m[35m0[39m[33
+m;[39m[33m--[39mtw[
+33m-[39mtranslate[33m
+-[39mz[33m:[39m[35m
+0[39m[33m;[39m[33m-
+-[39mtw[33m-[39mspac
+e[33m-[39my[33m-[39
+mreverse[33m:[39m[35
+m0[39m[33m;[39m[33m
+--[39mtw[33m-[39mbor
+der[33m-[39mstyle[33
+m:[39msolid[33m;[39m
+[33m--[39mtw[33m-[3
+9mleading[33m:[39mini
+tial[33m;[39m[33m--
+[39mtw[33m-[39mfont[
+33m-[39mweight[33m:[
+39minitial[33m;[39m[
+33m--[39mtw[33m-[39m
+tracking[33m:[39minit
+ial[33m;[39m[33m--[
+39mtw[33m-[39mshadow
+[33m:[39m[35m0[39m 
+[35m0[39m [33m#[39m
+[35m0000[39m[33m;[3
+9m[33m--[39mtw[33m-
+[39mshadow[33m-[39mco
+lor[33m:[39minitial[
+33m;[39m[33m--[39mtw
+[33m-[39mshadow[33m-
+[39malpha[33m:[39m[
+35m100[39m[33m%[39m
+[33m;[39m[33m--[39mt
+w[33m-[39minset[33m-
+[39mshadow[33m:[39m
+[35m0[39m [35m0[39m 
+[33m#[39m[35m0000[3
+9m[33m;[39m[33m--[3
+9mtw[33m-[39minset[3
+3m-[39mshadow[33m-[3
+9mcolor[33m:[39miniti
+al[33m;[39m[33m--[3
+9mtw[33m-[39minset[3
+3m-[39mshadow[33m-[3
+9malpha[33m:[39m[35m
+100[39m[33m%[39m[33
+m;[39m[33m--[39mtw[
+33m-[39mring[33m-[39
+mcolor[33m:[39minitia
+l[33m;[39m[33m--[39
+mtw[33m-[39mring[33m
+-[39mshadow[33m:[39m
+[35m0[39m 
+[35m0[39m [33m#[39m
+[35m0000[39m[33m;[3
+9m[33m--[39mtw[33m-
+[39minset[33m-[39mrin
+g[33m-[39mcolor[33m:
+[39minitial[33m;[39m
+[33m--[39mtw[33m-[3
+9minset[33m-[39mring
+[33m-[39mshadow[33m:
+[39m[35m0[39m 
+[35m0[39m [33m#[39m
+[35m0000[39m[33m;[3
+9m[33m--[39mtw[33m-
+[39mring[33m-[39minse
+t[33m:[39minitial[33
+m;[39m[33m--[39mtw[
+33m-[39mring[33m-[39
+moffset[33m-[39mwidth
+[33m:[39m[35m0[39mp
+x[33m;[39m[33m--[39
+mtw[33m-[39mring[33m
+-[39moffset[33m-[39m
+color[33m:[39m[33m#
+[39mfff[33m;[39m[33m
+--[39mtw[33m-[39mrin
+g[33m-[39moffset[33m
+-[39mshadow[33m:[39m
+[35m0[39m 
+[35m0[39m [33m#[39m
+[35m0000[39m[33m;[3
+9m[33m--[39mtw[33m-
+[39mblur[33m:[39minit
+ial[33m;[39m[33m--[
+39mtw[33m-[39mbrightn
+ess[33m:[39minitial[
+33m;[39m[33m--[39mtw
+[33m-[39mcontrast[33
+m:[39minitial[33m;[3
+9m[33m--[39mtw[33m-
+[39mgrayscale[33m:[39
+minitial[33m;[39m[33
+m--[39mtw[33m-[39mhu
+e[33m-[39mrotate[33m
+:[39minitial[33m;[39
+m[33m--[39mtw[33m-[
+39minvert[33m:[39mini
+tial[33m;[39m[33m--
+[39mtw[33m-[39mopacit
+y[33m:[39minitial[33
+m;[39m[33m--[39mtw[
+33m-[39msaturate[33m:
+[39minitial[33m;[39m
+[33m--[39mtw[33m-[3
+9msepia[33m:[39miniti
+al[33m;[39m[33m--[3
+9mtw[33m-[39mdrop[33
+m-[39mshadow[33m:[39
+minitial[33m;[39m[33
+m--[39mtw[33m-[39mdr
+op[33m-[39mshadow[33
+m-[39mcolor[33m:[39m
+initial[33m;[39m[33m
+--[39mtw[33m-[39mdro
+p[33m-[39mshadow[33m
+-[39malpha[33m:[39m
+[35m100[39m[33m%[39m
+[33m;[39m[33m--[39m
+tw[33m-[39mdrop[33m-
+[39mshadow[33m-[39ms
+ize[33m:[39minitial[
+33m;[39m[33m--[39mtw
+[33m-[39mduration[33
+m:[39minitial[33m;[3
+9m[33m--[39mtw[33m-
+[39mscale[33m-[39mx[
+33m:[39m[35m1[39m[3
+3m;[39m[33m--[39mtw
+[33m-[39mscale[33m-[
+39my[33m:[39m[35m1[
+39m[33m;[39m[33m--[
+39mtw[33m-[39mscale[
+33m-[39mz[33m:[39m[
+35m1[39m}}}[33m@[39m
+layer theme{[33m:[39m
+root[33m,[39m[33m:[
+39mhost{[33m--[39mfon
+t[33m-[39msans[33m:
+[39mui[33m-[39msans[
+33m-[39mserif[33m,[3
+9m system[33m-[39mui
+[33m,[39m sans[33m-[
+39mserif[33m,[39m 
+[32m"Apple Color 
+Emoji"[39m[33m,[39m 
+[32m"Segoe UI 
+Emoji"[39m[33m,[39m 
+[32m"Segoe UI Symbol"
+[39m[33m,[39m 
+[32m"Noto Color Emoji"
+[39m[33m;[39m[33m--
+[39mfont[33m-[39mmon
+o[33m:[39mui[33m-[3
+9mmonospace[33m,[39m 
+[33mSFMono[39m[33m-
+[39m[33mRegular[39m[
+33m,[39m [33mMenlo[3
+9m[33m,[39m [33mMona
+co[39m[33m,[39m [33
+mConsolas[39m[33m,[3
+9m [32m"Liberation 
+Mono"[39m[33m,[39m 
+[32m"Courier 
+New"[39m[33m,[39m mo
+nospace[33m;[39m[33m
+--[39mcolor[33m-[39m
+slate[33m-[39m[35m50
+[39m[33m:[39moklch(
+[35m98.4[39m[33m%[39
+m [35m.003[39m [35m2
+47.858[39m)[33m;[39m
+[33m--[39mcolor[33m-
+[39mslate[33m-[39m[
+35m200[39m[33m:[39mo
+klch([35m92.9[39m[33
+m%[39m [35m.013[39m 
+[35m255.508[39m)[33m
+;[39m[33m--[39mcolor
+[33m-[39mslate[33m-
+[39m[35m300[39m[33m:
+[39moklch([35m86.9[3
+9m[33m%[39m 
+[35m.022[39m [35m252
+.894[39m)[33m;[39m[
+33m--[39mcolor[33m-[
+39mslate[33m-[39m[35
+m400[39m[33m:[39mokl
+ch([35m70.4[39m[33m%
+[39m [35m.04[39m [3
+5m256.788[39m)[33m;[
+39m[33m--[39mcolor[3
+3m-[39mslate[33m-[39
+m[35m500[39m[33m:[3
+9moklch([35m55.4[39m
+[33m%[39m 
+[35m.046[39m [35m257
+.417[39m)[33m;[39m[
+33m--[39mcolor[33m-[
+39mslate[33m-[39m[35
+m600[39m[33m:[39mokl
+ch([35m44.6[39m[33m%
+[39m [35m.043[39m [
+35m257.281[39m)[33m;
+[39m[33m--[39mcolor[
+33m-[39mslate[33m-[3
+9m[35m950[39m[33m:[
+39moklch([35m12.9[39m
+[33m%[39m 
+[35m.042[39m [35m264
+.695[39m)[33m;[39m[
+33m--[39mcolor[33m-[
+39mblack[33m:[39m[33
+m#[39m[35m000[39m[3
+3m;[39m[33m--[39mcol
+or[33m-[39mwhite[33m
+:[39m[33m#[39mfff[3
+3m;[39m[33m--[39mspa
+cing[33m:[39m[35m.25
+[39mrem[33m;[39m[33
+m--[39mcontainer[33m-
+[39m[35m7[39mxl[33m
+:[39m[35m80[39mrem[
+33m;[39m[33m--[39mte
+xt[33m-[39mxs[33m:[
+39m[35m.75[39mrem[33
+m;[39m[33m--[39mtext
+[33m-[39mxs[33m--[3
+9mline[33m-[39mheight
+[33m:[39mcalc([35m1
+[39m [33m/[39m [35m.
+75[39m)[33m;[39m[33
+m--[39mtext[33m-[39m
+sm[33m:[39m[35m.875
+[39mrem[33m;[39m[33m
+--[39mtext[33m-[39ms
+m[33m--[39mline[33m-
+[39mheight[33m:[39mc
+alc([35m1.25[39m 
+[33m/[39m [35m.875[
+39m)[33m;[39m[33m--
+[39mtext[33m-[39mxl[
+33m:[39m[35m1.25[39m
+rem[33m;[39m[33m--[
+39mtext[33m-[39mxl[3
+3m--[39mline[33m-[39
+mheight[33m:[39mcalc(
+[35m1.75[39m 
+[33m/[39m [35m1.25[
+39m)[33m;[39m[33m--
+[39mfont[33m-[39mweig
+ht[33m-[39mlight[33m
+:[39m[35m300[39m[33
+m;[39m[33m--[39mfont
+[33m-[39mweight[33m-
+[39mnormal[33m:[39m
+[35m400[39m[33m;[39m
+[33m--[39mfont[33m-
+[39mweight[33m-[39mme
+dium[33m:[39m[35m500
+[39m[33m;[39m[33m--
+[39mfont[33m-[39mwei
+ght[33m-[39msemibold
+[33m:[39m[35m600[39m
+[33m;[39m[33m--[39m
+font[33m-[39mweight[
+33m-[39mbold[33m:[39
+m[35m700[39m[33m;[3
+9m[33m--[39mtracking
+[33m-[39mwide[33m:[3
+9m[35m.025[39mem[33m
+;[39m[33m--[39mtrack
+ing[33m-[39mwidest[3
+3m:[39m[35m.1[39mem
+[33m;[39m[33m--[39ml
+eading[33m-[39mrelaxe
+d[33m:[39m[35m1.625
+[39m[33m;[39m[33m--
+[39mradius[33m-[39m[
+35m2[39mxl[33m:[39m
+[35m1[39mrem[33m;[39
+m[33m--[39mradius[33
+m-[39m[35m3[39mxl[3
+3m:[39m[35m1.5[39mre
+m[33m;[39m[33m--[39
+mdrop[33m-[39mshadow
+[33m-[39mmd[33m:[39m
+[35m0[39m 
+[35m3[39mpx 
+[35m3[39mpx [33m#[3
+9m[35m0000001[39mf[3
+3m;[39m[33m--[39mani
+mate[33m-[39mping[33
+m:[39mping 
+[35m1[39ms cubic[33m
+-[39mbezier([35m0[39
+m[33m,[39m 
+[35m0[39m[33m,[39m 
+[35m.2[39m[33m,[39m
+ [35m1[39m) infinite
+[33m;[39m[33m--[39ma
+nimate[33m-[39mpulse
+[33m:[39mpulse 
+[35m2[39ms cubic[33m
+-[39mbezier([35m.4[3
+9m[33m,[39m 
+[35m0[39m[33m,[39m 
+[35m.6[39m[33m,[39m
+ [35m1[39m) infinite
+[33m;[39m[33m--[39mb
+lur[33m-[39msm[33m:
+[39m[35m8[39mpx[33m;
+[39m[33m--[39m[36md
+efault[39m[33m-[39mt
+ransition[33m-[39mdur
+ation[33m:[39m[35m.1
+5[39ms[33m;[39m[33m
+--[39m[36mdefault[39
+m[33m-[39mtransition
+[33m-[39mtiming[33m-
+[39m[36mfunction[39m
+[33m:[39mcubic[33m-[
+39mbezier([35m.4[39m
+[33m,[39m 
+[35m0[39m[33m,[39m 
+[35m.2[39m[33m,[39m
+ [35m1[39m)[33m;[39
+m[33m--[39m[36mdefau
+lt[39m[33m-[39mfont
+[33m-[39mfamily[33m:
+[39m[36mvar[39m([33m
+--[39mfont[33m-[39ms
+ans)[33m;[39m[33m--
+[39m[36mdefault[39m[
+33m-[39mmono[33m-[39
+mfont[33m-[39mfamily
+[33m:[39m[36mvar[39m
+([33m--[39mfont[33m-
+[39mmono)}}[33m@[39m
+layer base{[33m*[39m
+[33m,[39m[33m:[39maf
+ter[33m,[39m[33m:[3
+9mbefore[33m,[39m[33
+m:[39m[33m:[39mbackd
+rop{box[33m-[39msizin
+g[33m:[39mborder[33m
+-[39mbox[33m;[39mbor
+der[33m:[39m[35m0[3
+9m solid[33m;[39mmarg
+in[33m:[39m[35m0[39
+m[33m;[39mpadding[33
+m:[39m[35m0[39m}[33
+m:[39m[33m:[39mfile
+[33m-[39mselector[33m
+-[39mbutton{box[33m-
+[39msizing[33m:[39mbo
+rder[33m-[39mbox[33m
+;[39mborder[33m:[39m
+[35m0[39m solid[33m;
+[39mmargin[33m:[39m
+[35m0[39m[33m;[39mpa
+dding[33m:[39m[35m0
+[39m}html[33m,[39m[3
+3m:[39mhost{[33m-[39
+mwebkit[33m-[39mtext
+[33m-[39msize[33m-[3
+9madjust[33m:[39m[35
+m100[39m[33m%[39m[3
+3m;[39mtab[33m-[39ms
+ize[33m:[39m[35m4[3
+9m[33m;[39mline[33m-
+[39mheight[33m:[39m
+[35m1.5[39m[33m;[39m
+font[33m-[39mfamily[
+33m:[39m[36mvar[39m(
+[33m--[39m[36mdefaul
+t[39m[33m-[39mfont[
+33m-[39mfamily[33m,[
+39mui[33m-[39msans[3
+3m-[39mserif[33m,[39
+m system[33m-[39mui[
+33m,[39m sans[33m-[3
+9mserif[33m,[39m 
+[32m"Apple Color 
+Emoji"[39m[33m,[39m 
+[32m"Segoe UI 
+Emoji"[39m[33m,[39m 
+[32m"Segoe UI Symbol"
+[39m[33m,[39m 
+[32m"Noto Color Emoji"
+[39m)[33m;[39mfont[
+33m-[39mfeature[33m-
+[39msettings[33m:[39m
+[36mvar[39m([33m--[
+39m[36mdefault[39m[3
+3m-[39mfont[33m-[39m
+feature[33m-[39msetti
+ngs[33m,[39mnormal)[
+33m;[39mfont[33m-[39
+mvariation[33m-[39mse
+ttings[33m:[39m[36mv
+ar[39m([33m--[39m[3
+6mdefault[39m[33m-[3
+9mfont[33m-[39mvariat
+ion[33m-[39msettings
+[33m,[39mnormal)[33m;
+[39m[33m-[39mwebkit
+[33m-[39mtap[33m-[39
+mhighlight[33m-[39mco
+lor[33m:[39mtranspare
+nt}hr{height[33m:[39m
+[35m0[39m[33m;[39mc
+olor[33m:[39minherit
+[33m;[39mborder[33m-
+[39mtop[33m-[39mwidth
+[33m:[39m[35m1[39mp
+x}abbr[33m:[39mwhere(
+[title]){[33m-[39mweb
+kit[33m-[39mtext[33m
+-[39mdecoration[33m:
+[39munderline dotted[3
+3m;[39mtext[33m-[39m
+decoration[33m:[39mun
+derline dotted}h1[33m,
+[39mh2[33m,[39mh3[3
+3m,[39mh4[33m,[39mh5
+[33m,[39mh6{font[33m
+-[39msize[33m:[39min
+herit[33m;[39mfont[3
+3m-[39mweight[33m:[3
+9minherit}a{color[33m:
+[39minherit[33m;[39m
+[33m-[39mwebkit[33m-
+[39mtext[33m-[39mdec
+oration[33m:[39minher
+it[33m;[39m[33m-[39
+mwebkit[33m-[39mtext
+[33m-[39mdecoration[3
+3m:[39minherit[33m;[
+39m[33m-[39mwebkit[3
+3m-[39mtext[33m-[39m
+decoration[33m:[39min
+herit[33m;[39mtext[3
+3m-[39mdecoration[33m
+:[39minherit}b[33m,[
+39mstrong{font[33m-[3
+9mweight[33m:[39mbold
+er}code[33m,[39mkbd[
+33m,[39msamp[33m,[39
+mpre{font[33m-[39mfam
+ily[33m:[39m[36mvar
+[39m([33m--[39m[36md
+efault[39m[33m-[39mm
+ono[33m-[39mfont[33m
+-[39mfamily[33m,[39m
+ui[33m-[39mmonospace
+[33m,[39m [33mSFMono
+[39m[33m-[39m[33mReg
+ular[39m[33m,[39m [
+33mMenlo[39m[33m,[39
+m [33mMonaco[39m[33m
+,[39m [33mConsolas[3
+9m[33m,[39m 
+[32m"Liberation 
+Mono"[39m[33m,[39m 
+[32m"Courier 
+New"[39m[33m,[39m mo
+nospace)[33m;[39mfont
+[33m-[39mfeature[33m
+-[39msettings[33m:[3
+9m[36mvar[39m([33m--
+[39m[36mdefault[39m
+[33m-[39mmono[33m-[3
+9mfont[33m-[39mfeatur
+e[33m-[39msettings[3
+3m,[39mnormal)[33m;[
+39mfont[33m-[39mvaria
+tion[33m-[39msettings
+[33m:[39m[36mvar[39
+m([33m--[39m[36mdefa
+ult[39m[33m-[39mmono
+[33m-[39mfont[33m-[
+39mvariation[33m-[39m
+settings[33m,[39mnorm
+al)[33m;[39mfont[33m
+-[39msize[33m:[39m[
+35m1[39mem}small{font
+[33m-[39msize[33m:[3
+9m[35m80[39m[33m%[3
+9m}sub[33m,[39msup{ve
+rtical[33m-[39malign
+[33m:[39mbaseline[33m
+;[39mfont[33m-[39msi
+ze[33m:[39m[35m75[3
+9m[33m%[39m[33m;[39
+mline[33m-[39mheight
+[33m:[39m[35m0[39m[
+33m;[39mposition[33m:
+[39mrelative}sub{botto
+m[33m:[39m[33m-[39m
+[35m.25[39mem}sup{top
+[33m:[39m[33m-[39m
+[35m.5[39mem}table{tex
+t[33m-[39mindent[33m
+:[39m[35m0[39m[33m;
+[39mborder[33m-[39mc
+olor[33m:[39minherit
+[33m;[39mborder[33m-
+[39mcollapse[33m:[39m
+collapse}[33m:[39m[3
+3m-[39mmoz[33m-[39mf
+ocusring{outline[33m:
+[39mauto}progress{verti
+cal[33m-[39malign[33
+m:[39mbaseline}summary
+{display[33m:[39mlist
+[33m-[39mitem}ol[33m
+,[39mul[33m,[39mmenu
+{list[33m-[39mstyle[
+33m:[39mnone}img[33m,
+[39msvg[33m,[39mvide
+o[33m,[39mcanvas[33m
+,[39maudio[33m,[39mi
+frame[33m,[39membed[
+33m,[39mobject{vertica
+l[33m-[39malign[33m:
+[39mmiddle[33m;[39md
+isplay[33m:[39mblock}
+img[33m,[39mvideo{max
+[33m-[39mwidth[33m:
+[39m[35m100[39m[33m%
+[39m[33m;[39mheight
+[33m:[39mauto}button[
+33m,[39minput[33m,[3
+9mselect[33m,[39moptg
+roup[33m,[39mtextarea
+{font[33m:[39minherit
+[33m;[39mfont[33m-[
+39mfeature[33m-[39mse
+ttings[33m:[39minheri
+t[33m;[39mfont[33m-
+[39mvariation[33m-[39
+msettings[33m:[39minh
+erit[33m;[39mletter[
+33m-[39mspacing[33m:
+[39minherit[33m;[39mc
+olor[33m:[39minherit
+[33m;[39mopacity[33m:
+[39m[35m1[39m[33m;
+[39mbackground[33m-[3
+9mcolor[33m:[39m[33m
+#[39m[35m0000[39m[3
+3m;[39mborder[33m-[3
+9mradius[33m:[39m[35
+m0[39m}[33m:[39m[33
+m:[39mfile[33m-[39ms
+elector[33m-[39mbutto
+n{font[33m:[39minheri
+t[33m;[39mfont[33m-
+[39mfeature[33m-[39ms
+ettings[33m:[39minher
+it[33m;[39mfont[33m-
+[39mvariation[33m-[3
+9msettings[33m:[39min
+herit[33m;[39mletter
+[33m-[39mspacing[33m:
+[39minherit[33m;[39m
+color[33m:[39minherit
+[33m;[39mopacity[33m
+:[39m[35m1[39m[33m;
+[39mbackground[33m-[
+39mcolor[33m:[39m[33
+m#[39m[35m0000[39m[
+33m;[39mborder[33m-[
+39mradius[33m:[39m[3
+5m0[39m}[33m:[39mwhe
+re(select[33m:[39mis(
+[multiple][33m,[39m[s
+ize])) optgroup{font[3
+3m-[39mweight[33m:[3
+9mbolder}[33m:[39mwhe
+re(select[33m:[39mis(
+[multiple][33m,[39m[s
+ize])) optgroup option{
+padding[33m-[39minlin
+e[33m-[39mstart[33m:
+[39m[35m20[39mpx}[3
+3m:[39m[33m:[39mfile
+[33m-[39mselector[33
+m-[39mbutton{margin[3
+3m-[39minline[33m-[3
+9mend[33m:[39m[35m4
+[39mpx}[33m:[39m[33m
+:[39mplaceholder{opaci
+ty[33m:[39m[35m1[39
+m}[33m@[39msupports 
+(not (([33m-[39mwebki
+t[33m-[39mappearance
+[33m:[39m[33m-[39map
+ple[33m-[39mpay[33m-
+[39mbutton))) or (cont
+ain[33m-[39mintrinsic
+[33m-[39msize[33m:[
+39m[35m1[39mpx){[33m
+:[39m[33m:[39mplaceh
+older{color[33m:[39mc
+urrentColor}[33m@[39m
+supports (color[33m:[
+39mcolor[33m-[39mmix(
+[36min[39m 
+lab[33m,[39m 
+red[33m,[39m red)){[
+33m:[39m[33m:[39mpla
+ceholder{color[33m:[3
+9mcolor[33m-[39mmix(
+[36min[39m 
+oklab[33m,[39m 
+currentcolor [35m50[3
+9m[33m%[39m[33m,[39
+m transparent)}}}textar
+ea{resize[33m:[39mver
+tical}[33m:[39m[33m:
+[39m[33m-[39mwebkit
+[33m-[39msearch[33m-
+[39mdecoration{[33m-[
+39mwebkit[33m-[39mapp
+earance[33m:[39mnone}
+[33m:[39m[33m:[39m
+[33m-[39mwebkit[33m-
+[39mdate[33m-[39mand
+[33m-[39mtime[33m-[3
+9mvalue{min[33m-[39mh
+eight[33m:[39m[35m1
+[39mlh[33m;[39mtext[
+33m-[39malign[33m:[3
+9minherit}[33m:[39m[
+33m:[39m[33m-[39mweb
+kit[33m-[39mdatetime
+[33m-[39medit{display
+[33m:[39minline[33m-
+[39mflex}[33m:[39m[3
+3m:[39m[33m-[39mwebk
+it[33m-[39mdatetime[
+33m-[39medit[33m-[39
+mfields[33m-[39mwrapp
+er{padding[33m:[39m[
+35m0[39m}[33m:[39m[
+33m:[39m[33m-[39mweb
+kit[33m-[39mdatetime
+[33m-[39medit{padding
+[33m-[39mblock[33m:[
+39m[35m0[39m}[33m:[
+39m[33m:[39m[33m-[3
+9mwebkit[33m-[39mdate
+time[33m-[39medit[33
+m-[39myear[33m-[39mf
+ield{padding[33m-[39m
+block[33m:[39m[35m0
+[39m}[33m:[39m[33m:
+[39m[33m-[39mwebkit[
+33m-[39mdatetime[33m-
+[39medit[33m-[39mmon
+th[33m-[39mfield{padd
+ing[33m-[39mblock[33
+m:[39m[35m0[39m}[33
+m:[39m[33m:[39m[33m
+-[39mwebkit[33m-[39m
+datetime[33m-[39medit
+[33m-[39mday[33m-[3
+9mfield{padding[33m-[
+39mblock[33m:[39m[35
+m0[39m}[33m:[39m[33
+m:[39m[33m-[39mwebki
+t[33m-[39mdatetime[3
+3m-[39medit[33m-[39m
+hour[33m-[39mfield{pa
+dding[33m-[39mblock[
+33m:[39m[35m0[39m}[
+33m:[39m[33m:[39m[3
+3m-[39mwebkit[33m-[3
+9mdatetime[33m-[39med
+it[33m-[39mminute[33
+m-[39mfield{padding[3
+3m-[39mblock[33m:[39
+m[35m0[39m}[33m:[39
+m[33m:[39m[33m-[39m
+webkit[33m-[39mdateti
+me[33m-[39medit[33m-
+[39msecond[33m-[39mf
+ield{padding[33m-[39m
+block[33m:[39m[35m0
+[39m}[33m:[39m[33m:
+[39m[33m-[39mwebkit[
+33m-[39mdatetime[33m-
+[39medit[33m-[39mmil
+lisecond[33m-[39mfiel
+d{padding[33m-[39mblo
+ck[33m:[39m[35m0[39
+m}[33m:[39m[33m:[39
+m[33m-[39mwebkit[33m
+-[39mdatetime[33m-[3
+9medit[33m-[39mmeridi
+em[33m-[39mfield{padd
+ing[33m-[39mblock[33
+m:[39m[35m0[39m}[33
+m:[39m[33m:[39m[33m
+-[39mwebkit[33m-[39m
+calendar[33m-[39mpick
+er[33m-[39mindicator{
+line[33m-[39mheight[
+33m:[39m[35m1[39m}[
+33m:[39m[33m-[39mmoz
+[33m-[39mui[33m-[39
+minvalid{box[33m-[39m
+shadow[33m:[39mnone}b
+utton[33m,[39minput[
+33m:[39mwhere([type[3
+3m=[39mbutton][33m,[
+39m[type[33m=[39mrese
+t][33m,[39m[type[33m
+=[39msubmit]){appearan
+ce[33m:[39mbutton}[3
+3m:[39m[33m:[39mfile
+[33m-[39mselector[33
+m-[39mbutton{appearanc
+e[33m:[39mbutton}[33
+m:[39m[33m:[39m[33m
+-[39mwebkit[33m-[39m
+inner[33m-[39mspin[3
+3m-[39mbutton{height[
+33m:[39mauto}[33m:[3
+9m[33m:[39m[33m-[39
+mwebkit[33m-[39mouter
+[33m-[39mspin[33m-[
+39mbutton{height[33m:
+[39mauto}[hidden][33m:
+[39mwhere([33m:[39mn
+ot([hidden[33m=[39mun
+til[33m-[39mfound])){
+display[33m:[39mnone
+[33m![39mimportant}htm
+l{background[33m:[39m
+[36mvar[39m([33m--[
+39mtheme[33m-[39msurf
+ace[33m-[39msurface)
+[33m;[39mcolor[33m:[
+39m[36mvar[39m([33m-
+-[39mtheme[33m-[39ms
+urface[33m-[39mon[33
+m-[39msurface)[33m;[
+39mfont[33m-[39mfamil
+y[33m:[39minherit[33
+m;[39mfont[33m-[39ms
+ize[33m:[39m[35m16[
+39mpx[33m;[39mfont[3
+3m-[39mweight[33m:[3
+9m[35m400[39m}section
+{min[33m-[39mheight[
+33m:[39m[35m100[39md
+vh}section[33m.[39mce
+nter{place[33m-[39mco
+ntent[33m:[39msafe ce
+nter[33m;[39mjustify
+[33m-[39mitems[33m:[
+39mcenter}h2{margin[33
+m:[39m[35m.5[39mrem 
+[35m0[39m[33m;[39mf
+ont[33m-[39msize[33m
+:[39m[35m2.5[39mem[
+33m;[39mfont[33m-[39
+mweight[33m:[39m[35m
+350[39m[33m;[39mline
+[33m-[39mheight[33m:
+[39m[35m1[39m}[33m@
+[39mmedia (min[33m-[
+39mwidth[33m:[39m[35
+m930[39mpx){h2{width[
+33m:[39m[35m50[39m[
+33m%[39m[33m;[39mmax
+[33m-[39mwidth[33m:
+[39m[35m25[39mch}}p{c
+olor[33m:[39m[36mvar
+[39m([33m--[39mtheme
+[33m-[39msurface[33m
+-[39mon[33m-[39msurf
+ace[33m-[39mvariant)}
+[33m@[39mscope([33m.
+[39mdark){p{color[33m
+:[39m[36mvar[39m([3
+3m--[39mtheme[33m-[3
+9msurface[33m-[39msur
+face)}}}[33m@[39mlaye
+r components{[33m@[39
+mlayer button{button{ba
+ckground[33m:[39m[36
+mvar[39m([33m--[39mt
+heme[33m-[39mprimary
+[33m-[39mprimary)[33m
+;[39mcolor[33m:[39m
+[36mvar[39m([33m--[3
+9mtheme[33m-[39mprima
+ry[33m-[39mon[33m-[
+39mprimary)[33m;[39mc
+ursor[33m:[39mpointer
+[33m;[39mborder[33m:
+[39m[35m0[39m[33m;
+[39mborder[33m-[39mra
+dius[33m:[39m[35m999
+[39mpx[33m;[39mflex
+[33m-[39mdirection[33
+m:[39mrow[33m;[39mju
+stify[33m-[39mcontent
+[33m:[39mcenter[33m;
+[39malign[33m-[39mit
+ems[33m:[39mcenter[3
+3m;[39mgap[33m:[39m
+[35m.4[39mrem[33m;[3
+9mpadding[33m:[39m[3
+5m.6[39mem [35m1.5[3
+9mem[33m;[39mfont[33
+m-[39msize[33m:[39m
+[35m.9[39mem[33m;[39
+mtransition[33m:[39mb
+ackground 
+[35m.15[39ms ease[33
+m-[39mout[33m;[39mdi
+splay[33m:[39mflex}bu
+tton[33m:[39mhover[3
+3m,[39mbutton[33m:[3
+9mfocus[33m-[39mvisib
+le{background[33m:[39
+m[36mvar[39m([33m--
+[39mtheme[33m-[39mbut
+ton[33m-[39mstates[3
+3m-[39mprimary[33m-[
+39mhovered)}button[33m
+:[39mhas(span[33m+[3
+9m[33m.[39mmaterial[
+33m-[39msymbols[33m-
+[39moutlined){padding[
+33m-[39minline[33m-[
+39mend[33m:[39m[35m1
+[39mem}button[33m:[3
+9mhas([33m.[39mmateri
+al[33m-[39msymbols[3
+3m-[39moutlined[33m+
+[39mspan){padding[33m-
+[39minline[33m-[39ms
+tart[33m:[39m[35m1[
+39mem}button[33m.[39m
+secondary{color[33m:[
+39m[36mvar[39m([33m-
+-[39mtheme[33m-[39ms
+urface[33m-[39mon[33
+m-[39msurface)[33m;[
+39mbackground[33m:[39
+m[36mvar[39m([33m--
+[39mtheme[33m-[39msec
+ondary[33m-[39mbutton
+)[33m;[39mborder[33m
+:[39m[35m1[39mpx 
+solid [36mvar[39m([3
+3m--[39mtheme[33m-[3
+9moutline[33m-[39mvar
+iant)}button[33m.[39m
+secondary[33m:[39mhov
+er[33m,[39mbutton[33
+m.[39msecondary[33m:
+[39mfocus[33m-[39mvis
+ible{background[33m:[
+39m[36mvar[39m([33m-
+-[39mtheme[33m-[39mb
+utton[33m-[39mseconda
+ry[33m-[39mhover)}}[
+33m@[39mlayer navbar{
+[33m@[39mlayer 
+shared{nav ul{margin[3
+3m:[39m[35m0[39m[33
+m;[39mpadding[33m:[3
+9m[35m0[39m[33m;[39
+mlist[33m-[39mstyle[
+33m:[39mnone}[33m.[3
+9mmenu[33m-[39mcheckb
+ox{display[33m:[39mno
+ne}nav a{color[33m:[3
+9m[36mvar[39m([33m--
+[39mtheme[33m-[39msu
+rface[33m-[39mon[33m
+-[39msurface)[33m;[3
+9mtext[33m-[39mdecora
+tion[33m:[39mnone[33
+m;[39mtransition[33m:
+[39mcolor 
+[35m.15[39ms ease[33
+m-[39mout[33m,[39mba
+ckground 
+[35m.15[39ms 
+ease[33m-[39mout}nav 
+a[33m:[39mhover[33m,
+[39mnav a[33m:[39mfo
+cus[33m-[39mvisible{c
+olor[33m:[39m[33m#[
+39m[35m000[39m[33m;
+[39mbackground[33m:[3
+9m[36mvar[39m([33m--
+[39mtheme[33m-[39mbu
+tton[33m-[39mstates[
+33m-[39mhovered)}}[33
+m@[39mlayer mobile{[3
+3m@[39mmedia not all 
+and (min[33m-[39mwidt
+h[33m:[39m[35m930[3
+9mpx){[33m.[39mmenu[
+33m-[39mbutton{cursor
+[33m:[39mpointer[33m;
+[39mtext[33m-[39mali
+gn[33m:[39mcenter[33
+m;[39mborder[33m-[39
+mradius[33m:[39m[35m
+999[39mpx[33m;[39mpl
+ace[33m-[39mcontent[
+33m:[39mcenter[33m;[
+39mwidth[33m:[39m[35
+m3.5[39mem[33m;[39mt
+ransition[33m:[39mbac
+kground [35m.15[39ms 
+ease[33m-[39mout}[33
+m.[39mmenu[33m-[39mb
+utton[33m:[39mhover[
+33m,[39m[33m.[39mmen
+u[33m-[39mbutton[33m
+:[39mfocus[33m-[39mv
+isible{background[33m:
+[39m[36mvar[39m([33
+m--[39mtheme[33m-[39
+mbutton[33m-[39mstate
+s[33m-[39mhovered)}na
+v{display[33m:[39mnon
+e}nav li{border[33m-[
+39mbottom[33m:[39m[3
+5m1[39mpx solid [36mv
+ar[39m([33m--[39mthe
+me[33m-[39msurface[3
+3m-[39msurface[33m-[
+39mcontainer[33m-[39m
+higher)[33m;[39mfont
+[33m-[39msize[33m:[3
+9m[35m1.85[39mem[33m
+;[39mfont[33m-[39mwe
+ight[33m:[39m[35m350
+[39m}nav li[33m:[39m
+first[33m-[39mchild{b
+order[33m-[39mtop[33
+m:[39m[35m1[39mpx 
+solid [36mvar[39m([3
+3m--[39mtheme[33m-[3
+9msurface[33m-[39msur
+face[33m-[39mcontaine
+r[33m-[39mhigher)}nav
+ a{padding[33m-[39mbl
+ock[33m:[39m[35m1.5
+[39mrem[33m;[39mpaddi
+ng[33m-[39minline[33
+m:[39m[35m3[39mrem[
+33m;[39mdisplay[33m:
+[39mblock}[33m.[39mme
+nu[33m-[39mcheckbox[
+33m:[39mchecked[33m~
+[39mnav{background[33m
+:[39m[36mvar[39m([3
+3m--[39mpalette[33m-
+[39mgrey[33m-[39m[35
+m0[39m)[33m;[39mdisp
+lay[33m:[39mblock[33
+m;[39mposition[33m:[
+39mfixed[33m;[39minse
+t[33m:[39m[35m2.75[
+39mem [35m0[39m [35m
+0[39m}[33m.[39mmenu
+[33m-[39mcheckbox[33m
+:[39mchecked[33m~[39
+m[33m.[39mmenu[33m-
+[39mbutton [data[33m-
+[39mshow[33m-[39mwhen
+[33m=[39mclosed]{disp
+lay[33m:[39mnone[33m
+![39mimportant}[33m.
+[39mmenu[33m-[39mchec
+kbox[33m:[39mchecked
+[33m~[39m[33m.[39mme
+nu[33m-[39mbutton{bac
+kground[33m:[39m[36m
+var[39m([33m--[39mth
+eme[33m-[39mprimary[
+33m-[39mprimary)[33m;
+[39mcolor[33m:[39m[
+36mvar[39m([33m--[39
+mtheme[33m-[39mprimar
+y[33m-[39mon[33m-[3
+9mprimary)}[33m.[39mm
+enu[33m-[39mcheckbox
+[33m:[39mchecked[33m~
+[39m[33m.[39mmenu[3
+3m-[39mbutton[33m:[3
+9mhover[33m,[39m[33m
+.[39mmenu[33m-[39mch
+eckbox[33m:[39mchecke
+d[33m~[39m[33m.[39m
+menu[33m-[39mbutton[
+33m:[39mfocus[33m-[3
+9mvisible{background[3
+3m:[39m[36mvar[39m(
+[33m--[39mtheme[33m-
+[39mbutton[33m-[39mst
+ates[33m-[39mprimary
+[33m-[39mhovered)}[33
+m.[39mmenu[33m-[39mc
+heckbox[33m:[39mnot(
+[33m:[39mchecked)[33m
+~[39m[33m.[39mmenu[
+33m-[39mbutton [data[
+33m-[39mshow[33m-[39
+mwhen[33m=[39mopen]{d
+isplay[33m:[39mnone[
+33m![39mimportant}head
+er button{display[33m:
+[39mnone}}}[33m@[39m
+layer 
+large{[33m@[39mmedia 
+(min[33m-[39mwidth[3
+3m:[39m[35m930[39mpx
+){nav ul{flex[33m-[39
+mdirection[33m:[39mro
+w[33m;[39malign[33m-
+[39mself[33m:[39mfle
+x[33m-[39mstart[33m;
+[39mgap[33m:[39m[35
+m.2[39mrem[33m;[39md
+isplay[33m:[39mflex}n
+av a{color[33m:[39m[
+36mvar[39m([33m--[39
+mtheme[33m-[39msurfac
+e[33m-[39mon[33m-[3
+9msurface[33m-[39mvar
+iant)[33m;[39mwhite[
+33m-[39mspace[33m:[3
+9mnowrap[33m;[39mbord
+er[33m-[39mradius[33
+m:[39m[35m999[39mpx
+[33m;[39mpadding[33m:
+[39m[35m.6[39mem 
+[35m1.2[39mem}nav a[
+33m:[39mhover[33m,[3
+9mnav a[33m:[39mfocus
+[33m-[39mvisible{colo
+r[33m:[39m[33m#[39m
+[35m000[39m[33m;[39
+mbackground[33m:[39m
+[36mvar[39m([33m--[3
+9mtheme[33m-[39mnav[
+33m-[39mbutton[33m-[
+39mhover)}[33m.[39mme
+nu[33m-[39mbutton{dis
+play[33m:[39mnone}}}}
+[33m@[39mlayer card{
+[33m.[39mcard{border[
+33m-[39mradius[33m:[
+39m[35m2[39mem}[33m.
+[39mcard[33m.[39mdar
+k{background[33m:[39m
+[36mvar[39m([33m--[
+39mtheme[33m-[39mprim
+ary[33m-[39mprimary)
+[33m;[39mcolor[33m:[
+39m[36mvar[39m([33m-
+-[39mtheme[33m-[39ms
+urface[33m-[39msurfac
+e)}}}[33m@[39mlayer u
+tilities{[33m.[39mpoi
+nter[33m-[39mevents[
+33m-[39mnone{pointer[
+33m-[39mevents[33m:[
+39mnone}[33m.[39msr[
+33m-[39monly{clip[33m
+-[39mpath[33m:[39min
+set([35m50[39m[33m%
+[39m)[33m;[39mwhite[
+33m-[39mspace[33m:[3
+9mnowrap[33m;[39mbord
+er[33m-[39mwidth[33m
+:[39m[35m0[39m[33m;
+[39mwidth[33m:[39m[
+35m1[39mpx[33m;[39mh
+eight[33m:[39m[35m1
+[39mpx[33m;[39mmargin
+[33m:[39m[33m-[39m
+[35m1[39mpx[33m;[39m
+padding[33m:[39m[35m
+0[39m[33m;[39mpositi
+on[33m:[39mabsolute[
+33m;[39moverflow[33m:
+[39mhidden}[33m.[39m
+not[33m-[39msr[33m-
+[39monly{clip[33m-[39
+mpath[33m:[39mnone[3
+3m;[39mwhite[33m-[39
+mspace[33m:[39mnormal
+[33m;[39mwidth[33m:
+[39mauto[33m;[39mheig
+ht[33m:[39mauto[33m;
+[39mmargin[33m:[39m
+[35m0[39m[33m;[39mpa
+dding[33m:[39m[35m0
+[39m[33m;[39mposition
+[33m:[39m[36mstatic
+[39m[33m;[39moverflow
+[33m:[39mvisible}[33
+m.[39mabsolute{positio
+n[33m:[39mabsolute}[
+33m.[39mrelative{posit
+ion[33m:[39mrelative}
+[33m.[39minset[33m-
+[39m[35m0[39m{inset[
+33m:[39mcalc([36mvar
+[39m([33m--[39mspacin
+g) [33m*[39m [35m0[
+39m)}[33m.[39mstart{i
+nset[33m-[39minline[
+33m-[39mstart[33m:[3
+9m[36mvar[39m([33m--
+[39mspacing)}[33m.[3
+9mtop[33m-[39m[35m1
+[39m[37m[41m[1m\[22
+m[49m[39m[33m/[39m
+[35m2[39m{top[33m:[3
+9m[35m50[39m[33m%[3
+9m}[33m.[39mright[33
+m-[39m[35m2[39m{righ
+t[33m:[39mcalc([36mv
+ar[39m([33m--[39mspa
+cing) [33m*[39m [35m
+2[39m)}[33m.[39mz[3
+3m-[39m[35m10[39m{z
+[33m-[39mindex[33m:[
+39m[35m10[39m}[33m.
+[39mmx[33m-[39mauto{m
+argin[33m-[39minline
+[33m:[39mauto}[33m.[
+39mmt[33m-[39m[35m2
+[39m{margin[33m-[39mt
+op[33m:[39mcalc([36m
+var[39m([33m--[39msp
+acing) [33m*[39m [35
+m2[39m)}[33m.[39mmt
+[33m-[39m[35m4[39m{m
+argin[33m-[39mtop[33
+m:[39mcalc([36mvar[3
+9m([33m--[39mspacing)
+ [33m*[39m [35m4[39
+m)}[33m.[39mmt[33m-
+[39m[35m10[39m{margin
+[33m-[39mtop[33m:[3
+9mcalc([36mvar[39m([
+33m--[39mspacing) 
+[33m*[39m [35m10[39
+m)}[33m.[39mmt[33m-
+[39m[35m12[39m{margin
+[33m-[39mtop[33m:[3
+9mcalc([36mvar[39m([
+33m--[39mspacing) 
+[33m*[39m [35m12[39
+m)}[33m.[39mmt[33m-
+[39m[35m16[39m{margin
+[33m-[39mtop[33m:[3
+9mcalc([36mvar[39m([
+33m--[39mspacing) 
+[33m*[39m [35m16[39
+m)}[33m.[39mmt[33m-
+[39mauto{margin[33m-[
+39mtop[33m:[39mauto}
+[33m.[39mmb[33m-[39m
+[35m3[39m{margin[33m
+-[39mbottom[33m:[39m
+calc([36mvar[39m([33
+m--[39mspacing) 
+[33m*[39m [35m3[39m
+)}[33m.[39mmb[33m-[
+39m[35m4[39m{margin[
+33m-[39mbottom[33m:[
+39mcalc([36mvar[39m(
+[33m--[39mspacing) 
+[33m*[39m [35m4[39m
+)}[33m.[39mmb[33m-[
+39m[35m6[39m{margin[
+33m-[39mbottom[33m:[
+39mcalc([36mvar[39m(
+[33m--[39mspacing) 
+[33m*[39m [35m6[39m
+)}[33m.[39mml[33m-[
+39m[35m4[39m{margin[
+33m-[39mleft[33m:[39
+mcalc([36mvar[39m([3
+3m--[39mspacing) 
+[33m*[39m [35m4[39m
+)}[33m.[39mml[33m-[
+39m[35m6[39m{margin[
+33m-[39mleft[33m:[39
+mcalc([36mvar[39m([3
+3m--[39mspacing) 
+[33m*[39m [35m6[39m
+)}[33m.[39mml[33m-[
+39m[37m[41m[1m\[22m
+[49m[39m[[33m-[39m
+[35m2[39mpx[37m[41m
+[1m\[22m[49m[39m]{ma
+rgin[33m-[39mleft[33
+m:[39m[33m-[39m[35m
+2[39mpx}[33m.[39mml
+[33m-[39mauto{margin[
+33m-[39mleft[33m:[39
+mauto}[33m.[39mblock{
+display[33m:[39mblock
+}[33m.[39mcontents{di
+splay[33m:[39mcontent
+s}[33m.[39mflex{displ
+ay[33m:[39mflex}[33m
+.[39mhidden{display[3
+3m:[39mnone}[33m.[39
+mh[33m-[39m[35m2[39
+m{height[33m:[39mcalc
+([36mvar[39m([33m--
+[39mspacing) 
+[33m*[39m [35m2[39m
+)}[33m.[39mh[33m-[3
+9m[35m3[39m{height[3
+3m:[39mcalc([36mvar[
+39m([33m--[39mspacing
+) [33m*[39m [35m3[3
+9m)}[33m.[39mh[33m-
+[39m[35m4[39m{height
+[33m:[39mcalc([36mvar
+[39m([33m--[39mspaci
+ng) [33m*[39m [35m4
+[39m)}[33m.[39mh[33m
+-[39m[35m10[39m{heig
+ht[33m:[39mcalc([36m
+var[39m([33m--[39msp
+acing) [33m*[39m [35
+m10[39m)}[33m.[39mh
+[33m-[39m[37m[41m[1
+m\[22m[49m[39m[[35m
+650[39mpx[37m[41m[1
+m\[22m[49m[39m]{heig
+ht[33m:[39m[35m650[
+39mpx}[33m.[39mmin[3
+3m-[39mh[33m-[39mscr
+een{min[33m-[39mheigh
+t[33m:[39m[35m100[3
+9mvh}[33m.[39mw[33m-
+[39m[35m2[39m{width
+[33m:[39mcalc([36mvar
+[39m([33m--[39mspaci
+ng) [33m*[39m [35m2
+[39m)}[33m.[39mw[33m
+-[39m[35m3[39m{width
+[33m:[39mcalc([36mva
+r[39m([33m--[39mspac
+ing) [33m*[39m [35m3
+[39m)}[33m.[39mw[33
+m-[39m[35m4[39m{widt
+h[33m:[39mcalc([36mv
+ar[39m([33m--[39mspa
+cing) [33m*[39m [35m
+4[39m)}[33m.[39mw[3
+3m-[39m[35m10[39m{wi
+dth[33m:[39mcalc([36
+mvar[39m([33m--[39ms
+pacing) [33m*[39m [3
+5m10[39m)}[33m.[39mw
+[33m-[39mfull{width[
+33m:[39m[35m100[39m
+[33m%[39m}[33m.[39mm
+ax[33m-[39mw[33m-[3
+9m[35m7[39mxl{max[33
+m-[39mwidth[33m:[39m
+[36mvar[39m([33m--[
+39mcontainer[33m-[39m
+[35m7[39mxl)}[33m.[
+39mmax[33m-[39mw[33m
+-[39m[37m[41m[1m\[
+22m[49m[39m[[35m85[
+39m[37m[41m[1m\[22m
+[49m[39m[33m%[39m[
+37m[41m[1m\[22m[49m
+[39m]{max[33m-[39mwi
+dth[33m:[39m[35m85[
+39m[33m%[39m}[33m.[
+39mmin[33m-[39mw[33m
+-[39m[37m[41m[1m\[
+22m[49m[39m[[35m300
+[39mpx[37m[41m[1m\[
+22m[49m[39m]{min[33m
+-[39mwidth[33m:[39m
+[35m300[39mpx}[33m.[
+39mflex[33m-[39m[35m
+1[39m{flex[33m:[39m
+[35m1[39m}[33m.[39ms
+hrink[33m-[39m[35m0
+[39m{flex[33m-[39mshr
+ink[33m:[39m[35m0[3
+9m}[33m.[39m[33m-[3
+9mtranslate[33m-[39my
+[33m-[39m[35m1[39m
+[37m[41m[1m\[22m[49
+m[39m[33m/[39m[35m2
+[39m{[33m--[39mtw[3
+3m-[39mtranslate[33m-
+[39my[33m:[39mcalc(c
+alc([35m1[39m 
+[33m/[39m 
+[35m2[39m 
+[33m*[39m [35m100[3
+9m[33m%[39m) 
+[33m*[39m [33m-[39m
+[35m1[39m)[33m;[39m
+translate[33m:[39m[3
+6mvar[39m([33m--[39m
+tw[33m-[39mtranslate
+[33m-[39mx) [36mvar[
+39m([33m--[39mtw[33m
+-[39mtranslate[33m-[
+39my)}[33m.[39manimat
+e[33m-[39mping{animat
+ion[33m:[39m[36mvar
+[39m([33m--[39manimat
+e[33m-[39mping)}[33m
+.[39manimate[33m-[39
+mpulse{animation[33m:
+[39m[36mvar[39m([33m
+--[39manimate[33m-[3
+9mpulse)}[33m.[39mcur
+sor[33m-[39m[36mdefa
+ult[39m{cursor[33m:[
+39m[36mdefault[39m}[
+33m.[39mcursor[33m-[
+39mpointer{cursor[33m:
+[39mpointer}[33m.[39
+mflex[33m-[39mcol{fle
+x[33m-[39mdirection[
+33m:[39mcolumn}[33m.
+[39mitems[33m-[39mcen
+ter{align[33m-[39mite
+ms[33m:[39mcenter}[3
+3m.[39mjustify[33m-[
+39mbetween{justify[33m
+-[39mcontent[33m:[39
+mspace[33m-[39mbetwee
+n}[33m.[39mjustify[3
+3m-[39mcenter{justify
+[33m-[39mcontent[33m:
+[39mcenter}[33m.[39m
+justify[33m-[39mend{j
+ustify[33m-[39mconten
+t[33m:[39mflex[33m-
+[39mend}[33m.[39mjust
+ify[33m-[39mstart{jus
+tify[33m-[39mcontent
+[33m:[39mflex[33m-[3
+9mstart}[33m.[39mgap
+[33m-[39m[35m2[39m{g
+ap[33m:[39mcalc([36m
+var[39m([33m--[39msp
+acing) [33m*[39m [35
+m2[39m)}[33m.[39mgap
+[33m-[39m[35m3[39m{
+gap[33m:[39mcalc([36
+mvar[39m([33m--[39ms
+pacing) [33m*[39m [3
+5m3[39m)}[33m.[39mga
+p[33m-[39m[35m4[39m
+{gap[33m:[39mcalc([3
+6mvar[39m([33m--[39m
+spacing) [33m*[39m [
+35m4[39m)}[33m:[39mw
+here([33m.[39mspace[
+33m-[39my[33m-[39m[
+35m4[39m[33m>[39m[3
+3m:[39mnot([33m:[39m
+last[33m-[39mchild)){
+[33m--[39mtw[33m-[3
+9mspace[33m-[39my[33
+m-[39mreverse[33m:[3
+9m[35m0[39m[33m;[39
+mmargin[33m-[39mblock
+[33m-[39mstart[33m:
+[39mcalc(calc([36mvar
+[39m([33m--[39mspacin
+g) [33m*[39m 
+[35m4[39m) 
+[33m*[39m [36mvar[3
+9m([33m--[39mtw[33m-
+[39mspace[33m-[39my
+[33m-[39mreverse))[33
+m;[39mmargin[33m-[39
+mblock[33m-[39mend[3
+3m:[39mcalc(calc([36m
+var[39m([33m--[39msp
+acing) [33m*[39m 
+[35m4[39m) 
+[33m*[39m 
+calc([35m1[39m 
+[33m-[39m [36mvar[3
+9m([33m--[39mtw[33m-
+[39mspace[33m-[39my
+[33m-[39mreverse)))}[
+33m:[39mwhere([33m.[
+39mspace[33m-[39my[3
+3m-[39m[35m6[39m[33
+m>[39m[33m:[39mnot(
+[33m:[39mlast[33m-[3
+9mchild)){[33m--[39mt
+w[33m-[39mspace[33m-
+[39my[33m-[39mrevers
+e[33m:[39m[35m0[39m
+[33m;[39mmargin[33m-
+[39mblock[33m-[39mst
+art[33m:[39mcalc(calc
+([36mvar[39m([33m--
+[39mspacing) 
+[33m*[39m 
+[35m6[39m) 
+[33m*[39m [36mvar[3
+9m([33m--[39mtw[33m-
+[39mspace[33m-[39my
+[33m-[39mreverse))[33
+m;[39mmargin[33m-[39
+mblock[33m-[39mend[3
+3m:[39mcalc(calc([36m
+var[39m([33m--[39msp
+acing) [33m*[39m 
+[35m6[39m) 
+[33m*[39m 
+calc([35m1[39m 
+[33m-[39m [36mvar[3
+9m([33m--[39mtw[33m-
+[39mspace[33m-[39my
+[33m-[39mreverse)))}[
+33m.[39moverflow[33m-
+[39mhidden{overflow[3
+3m:[39mhidden}[33m.[
+39moverflow[33m-[39mx
+[33m-[39mhidden{overf
+low[33m-[39mx[33m:[
+39mhidden}[33m.[39mov
+erflow[33m-[39my[33m
+-[39mauto{overflow[33
+m-[39my[33m:[39mauto
+}[33m.[39m[37m[41m
+[1m\[22m[49m[39m[33
+m![39mrounded[33m-[3
+9mfull{border[33m-[39
+mradius[33m:[39m[35m
+3.40282e38[39mpx[33m!
+[39mimportant}[33m.[
+39mrounded[33m-[39m[
+35m2[39mxl{border[33m
+-[39mradius[33m:[39m
+[36mvar[39m([33m--[
+39mradius[33m-[39m[3
+5m2[39mxl)}[33m.[39m
+rounded[33m-[39m[35m
+3[39mxl{border[33m-[
+39mradius[33m:[39m[3
+6mvar[39m([33m--[39m
+radius[33m-[39m[35m3
+[39mxl)}[33m.[39mrou
+nded[33m-[39mfull{bor
+der[33m-[39mradius[3
+3m:[39m[35m3.40282e38
+[39mpx}[33m.[39mroun
+ded[33m-[39mbr[33m-
+[39m[37m[41m[1m\[22
+m[49m[39m[[35m4[39m
+px[37m[41m[1m\[22m
+[49m[39m]{border[33m-
+[39mbottom[33m-[39mr
+ight[33m-[39mradius[
+33m:[39m[35m4[39mpx}
+[33m.[39mrounded[33m
+-[39mbl[33m-[39m[37
+m[41m[1m\[22m[49m[
+39m[[35m4[39mpx[37m
+[41m[1m\[22m[49m[39
+m]{border[33m-[39mbot
+tom[33m-[39mleft[33m
+-[39mradius[33m:[39m
+[35m4[39mpx}[33m.[3
+9mborder{border[33m-[
+39mstyle[33m:[39m[36
+mvar[39m([33m--[39mt
+w[33m-[39mborder[33m
+-[39mstyle)[33m;[39m
+border[33m-[39mwidth
+[33m:[39m[35m1[39mpx
+}[33m.[39mborder[33m
+-[39mdashed{[33m--[3
+9mtw[33m-[39mborder[
+33m-[39mstyle[33m:[3
+9mdashed[33m;[39mbord
+er[33m-[39mstyle[33m
+:[39mdashed}[33m.[39
+mborder[33m-[39m[37m
+[41m[1m\[22m[49m[3
+9m[[37m[41m[1m\[22m
+[49m[39m[33m#[39m[
+35m00[39m[33mB95C[39
+m[37m[41m[1m\[22m[
+49m[39m][37m[41m[1m
+\[22m[49m[39m[33m/
+[39m[35m50[39m{border
+[33m-[39mcolor[33m:
+[39moklab([35m68.775[
+39m[33m%[39m [33m-[
+39m[35m.160996[39m [
+35m.0877945[39m[33m/
+[39m[35m.5[39m)}[33m
+.[39mborder[33m-[39m
+[37m[41m[1m\[22m[4
+9m[39m[[37m[41m[1m\
+[22m[49m[39m[33m#[
+39m[35m3186[39m[33mF
+F[39m[37m[41m[1m\[
+22m[49m[39m]{border[
+33m-[39mcolor[33m:[3
+9m[33m#[39m[35m3186
+[39mff}[33m.[39mborde
+r[33m-[39mwhite[37m
+[41m[1m\[22m[49m[39
+m[33m/[39m[35m5[39m
+{border[33m-[39mcolor
+[33m:[39m[33m#[39mf
+fffff0d}[33m@[39msupp
+orts (color[33m:[39mc
+olor[33m-[39mmix([36
+min[39m 
+lab[33m,[39m 
+red[33m,[39m red)){[
+33m.[39mborder[33m-[
+39mwhite[37m[41m[1m\
+[22m[49m[39m[33m/[
+39m[35m5[39m{border[
+33m-[39mcolor[33m:[3
+9mcolor[33m-[39mmix(
+[36min[39m 
+oklab[33m,[39m [36mv
+ar[39m([33m--[39mcol
+or[33m-[39mwhite) [3
+5m5[39m[33m%[39m[33
+m,[39m transparent)}}
+[33m.[39mborder[33m-
+[39mwhite[37m[41m[1m
+\[22m[49m[39m[33m/
+[39m[35m10[39m{border
+[33m-[39mcolor[33m:
+[39m[33m#[39mffffff1a
+}[33m@[39msupports (c
+olor[33m:[39mcolor[3
+3m-[39mmix([36min[39
+m lab[33m,[39m 
+red[33m,[39m red)){[
+33m.[39mborder[33m-[
+39mwhite[37m[41m[1m\
+[22m[49m[39m[33m/[
+39m[35m10[39m{border
+[33m-[39mcolor[33m:[
+39mcolor[33m-[39mmix(
+[36min[39m 
+oklab[33m,[39m [36mv
+ar[39m([33m--[39mcol
+or[33m-[39mwhite) [3
+5m10[39m[33m%[39m[3
+3m,[39m transparent)}}
+[33m.[39m[37m[41m[
+1m\[22m[49m[39m[33m
+![39mbg[33m-[39m[37
+m[41m[1m\[22m[49m[
+39m[[37m[41m[1m\[22
+m[49m[39m[33m#[39me
+6eaf0[37m[41m[1m\[2
+2m[49m[39m]{backgroun
+d[33m-[39mcolor[33m:
+[39m[33m#[39me6eaf0
+[33m![39mimportant}[3
+3m.[39mbg[33m-[39m[
+37m[41m[1m\[22m[49m
+[39m[[37m[41m[1m\[
+22m[49m[39m[33m#[39
+m[35m00[39m[33mB95C
+[39m[37m[41m[1m\[22
+m[49m[39m]{background
+[33m-[39mcolor[33m:
+[39m[33m#[39m[35m00
+[39mb95c}[33m.[39mbg
+[33m-[39m[37m[41m[1
+m\[22m[49m[39m[[37m
+[41m[1m\[22m[49m[3
+9m[33m#[39m[35m00[3
+9m[33mB95C[39m[37m[
+41m[1m\[22m[49m[39m
+][37m[41m[1m\[22m[
+49m[39m[33m/[39m[35
+m10[39m{background[33
+m-[39mcolor[33m:[39m
+oklab([35m68.775[39m
+[33m%[39m [33m-[39m
+[35m.160996[39m [35m.
+0877945[39m[33m/[39m
+[35m.1[39m)}[33m.[3
+9mbg[33m-[39m[37m[4
+1m[1m\[22m[49m[39m[
+[37m[41m[1m\[22m[4
+9m[39m[33m#[39m[35m
+00[39m[33mB95C[39m[
+37m[41m[1m\[22m[49m
+[39m][37m[41m[1m\[
+22m[49m[39m[33m/[39
+m[35m80[39m{backgroun
+d[33m-[39mcolor[33m:
+[39moklab([35m68.775
+[39m[33m%[39m [33m-
+[39m[35m.160996[39m 
+[35m.0877945[39m[33m/
+[39m[35m.8[39m)}[33
+m.[39mbg[33m-[39m[3
+7m[41m[1m\[22m[49m
+[39m[[37m[41m[1m\[2
+2m[49m[39m[33m#[39m
+[35m18191[39md[37m[
+41m[1m\[22m[49m[39m
+]{background[33m-[39m
+color[33m:[39m[33m#
+[39m[35m18191[39md}[
+33m.[39mbg[33m-[39m
+[37m[41m[1m\[22m[49
+m[39m[[37m[41m[1m\
+[22m[49m[39m[33m#[3
+9m[35m121317[39m[37m
+[41m[1m\[22m[49m[3
+9m]{background[33m-[3
+9mcolor[33m:[39m[33m
+#[39m[35m121317[39m}
+[33m.[39mbg[33m-[39
+m[37m[41m[1m\[22m[
+49m[39m[[37m[41m[1m
+\[22m[49m[39m[33m#
+[39m[35m212226[39m[3
+7m[41m[1m\[22m[49m
+[39m]{background[33m-
+[39mcolor[33m:[39m[3
+3m#[39m[35m212226[39
+m}[33m.[39mbg[33m-[
+39m[37m[41m[1m\[22m
+[49m[39m[[37m[41m[
+1m\[22m[49m[39m[33m
+#[39m[33mFC413D[39m
+[37m[41m[1m\[22m[49
+m[39m][37m[41m[1m\
+[22m[49m[39m[33m/[3
+9m[35m80[39m{backgrou
+nd[33m-[39mcolor[33m
+:[39moklab([35m65.515
+4[39m[33m%[39m 
+[35m.199382[39m [35m
+.100978[39m[33m/[39m
+[35m.8[39m)}[33m.[3
+9mbg[33m-[39m[37m[4
+1m[1m\[22m[49m[39m[
+[37m[41m[1m\[22m[4
+9m[39m[33m#[39m[33m
+FFE432[39m[37m[41m[
+1m\[22m[49m[39m][37
+m[41m[1m\[22m[49m[
+39m[33m/[39m[35m80[
+39m{background[33m-[3
+9mcolor[33m:[39moklab
+([35m91.3911[39m[33m
+%[39m [33m-[39m[35m
+.0307874[39m [35m.176
+349[39m[33m/[39m[35
+m.8[39m)}[33m.[39mbg
+[33m-[39m[37m[41m[
+1m\[22m[49m[39m[[37
+m[41m[1m\[22m[49m[
+39m[33m#[39me6eaf0[3
+7m[41m[1m\[22m[49m
+[39m]{background[33m-
+[39mcolor[33m:[39m[3
+3m#[39me6eaf0}[33m.[
+39mbg[33m-[39mblack[
+37m[41m[1m\[22m[49m
+[39m[33m/[39m[35m40
+[39m{background[33m-
+[39mcolor[33m:[39m[3
+3m#[39m[35m0006[39m}
+[33m@[39msupports (co
+lor[33m:[39mcolor[33
+m-[39mmix([36min[39m
+ lab[33m,[39m 
+red[33m,[39m red)){[
+33m.[39mbg[33m-[39mb
+lack[37m[41m[1m\[22
+m[49m[39m[33m/[39m
+[35m40[39m{background
+[33m-[39mcolor[33m:[
+39mcolor[33m-[39mmix(
+[36min[39m 
+oklab[33m,[39m [36mv
+ar[39m([33m--[39mcol
+or[33m-[39mblack) [3
+5m40[39m[33m%[39m[3
+3m,[39m transparent)}}
+[33m.[39mbg[33m-[39
+mslate[33m-[39m[35m9
+50[39m{background[33m
+-[39mcolor[33m:[39m
+[36mvar[39m([33m--[3
+9mcolor[33m-[39mslate
+[33m-[39m[35m950[39
+m)}[33m.[39mbg[33m-
+[39mwhite[37m[41m[1m
+\[22m[49m[39m[33m/
+[39m[37m[41m[1m\[22
+m[49m[39m[[35m0[39m
+[37m[41m[1m\[22m[4
+9m[39m[35m.02[39m[3
+7m[41m[1m\[22m[49m
+[39m]{background[33m-
+[39mcolor[33m:[39m[3
+3m#[39mffffff05}[33m@
+[39msupports (color[3
+3m:[39mcolor[33m-[39
+mmix([36min[39m 
+lab[33m,[39m 
+red[33m,[39m red)){[
+33m.[39mbg[33m-[39mw
+hite[37m[41m[1m\[22
+m[49m[39m[33m/[39m
+[37m[41m[1m\[22m[49
+m[39m[[35m0[39m[37m
+[41m[1m\[22m[49m[3
+9m[35m.02[39m[37m[4
+1m[1m\[22m[49m[39m]
+{background[33m-[39mc
+olor[33m:[39mcolor[3
+3m-[39mmix([36min[39
+m oklab[33m,[39m [36
+mvar[39m([33m--[39mc
+olor[33m-[39mwhite) 
+[35m2[39m[33m%[39m[
+33m,[39m transparent)}
+}[33m.[39mbg[33m-[3
+9m[37m[41m[1m\[22m
+[49m[39m[radial[33m-
+[39mgradient[37m[41m
+[1m\[22m[49m[39m(cir
+cle_at_50[37m[41m[1m
+\[22m[49m[39m[33m%
+[39m_50[37m[41m[1m\
+[22m[49m[39m[33m%[3
+9m[37m[41m[1m\[22m
+[49m[39m[33m,[39mrgb
+a[37m[41m[1m\[22m[
+49m[39m([35m49[39m[
+37m[41m[1m\[22m[49m
+[39m[33m,[39m[35m13
+4[39m[37m[41m[1m\[
+22m[49m[39m[33m,[39
+m[35m255[39m[37m[41
+m[1m\[22m[49m[39m[
+33m,[39m[35m0[39m[3
+7m[41m[1m\[22m[49m
+[39m[35m.03[39m[37m
+[41m[1m\[22m[49m[39
+m)[37m[41m[1m\[22m
+[49m[39m[33m,[39mtra
+nsparent_70[37m[41m[
+1m\[22m[49m[39m[33m
+%[39m[37m[41m[1m\[
+22m[49m[39m)[37m[41
+m[1m\[22m[49m[39m]{
+background[33m-[39mim
+age[33m:[39mradial[3
+3m-[39mgradient(circle
+[33m,[39m[33m#[39m
+[35m3186[39mff08[33m,
+[39m[33m#[39m[35m00
+00[39m [35m70[39m[3
+3m%[39m)}[33m.[39mp
+[33m-[39m[35m5[39m{p
+adding[33m:[39mcalc(
+[36mvar[39m([33m--[3
+9mspacing) [33m*[39m 
+[35m5[39m)}[33m.[39
+mp[33m-[39m[35m6[39
+m{padding[33m:[39mcal
+c([36mvar[39m([33m--
+[39mspacing) 
+[33m*[39m [35m6[39m
+)}[33m.[39m[37m[41m
+[1m\[22m[49m[39m[3
+3m![39mpx[33m-[39m[
+35m5[39m{padding[33m-
+[39minline[33m:[39mc
+alc([36mvar[39m([33m
+--[39mspacing) 
+[33m*[39m [35m5[39m
+)[33m![39mimportant}
+[33m.[39mpx[33m-[39m
+[35m12[39m{padding[3
+3m-[39minline[33m:[3
+9mcalc([36mvar[39m([
+33m--[39mspacing) 
+[33m*[39m [35m12[39
+m)}[33m.[39m[37m[41
+m[1m\[22m[49m[39m[
+33m![39mpy[33m-[39m
+[35m1[39m{padding[33m
+-[39mblock[33m:[39mc
+alc([36mvar[39m([33m
+--[39mspacing) 
+[33m*[39m [35m1[39m
+)[33m![39mimportant}
+[33m.[39mpy[33m-[39m
+[35m4[39m{padding[33
+m-[39mblock[33m:[39m
+calc([36mvar[39m([33
+m--[39mspacing) 
+[33m*[39m [35m4[39m
+)}[33m.[39mpy[33m-[
+39m[35m24[39m{padding
+[33m-[39mblock[33m:
+[39mcalc([36mvar[39m(
+[33m--[39mspacing) 
+[33m*[39m [35m24[39
+m)}[33m.[39mpt[33m-
+[39m[35m0[39m{padding
+[33m-[39mtop[33m:[3
+9mcalc([36mvar[39m([
+33m--[39mspacing) 
+[33m*[39m [35m0[39m
+)}[33m.[39mpr[33m-[
+39m[35m16[39m{padding
+[33m-[39mright[33m:
+[39mcalc([36mvar[39m(
+[33m--[39mspacing) 
+[33m*[39m [35m16[39
+m)}[33m.[39mpl[33m-
+[39m[35m6[39m{padding
+[33m-[39mleft[33m:[
+39mcalc([36mvar[39m(
+[33m--[39mspacing) 
+[33m*[39m [35m6[39m
+)}[33m.[39mfont[33m-
+[39mmono{font[33m-[3
+9mfamily[33m:[39m[36
+mvar[39m([33m--[39mf
+ont[33m-[39mmono)}[3
+3m.[39mfont[33m-[39m
+sans{font[33m-[39mfam
+ily[33m:[39m[36mvar
+[39m([33m--[39mfont[
+33m-[39msans)}[33m.[
+39m[37m[41m[1m\[22m
+[49m[39m[33m![39mte
+xt[33m-[39msm{font[3
+3m-[39msize[33m:[39m
+[36mvar[39m([33m--[
+39mtext[33m-[39msm)[
+33m![39mimportant[33m
+;[39mline[33m-[39mhe
+ight[33m:[39m[36mvar
+[39m([33m--[39mtw[3
+3m-[39mleading[33m,[
+39m[36mvar[39m([33m-
+-[39mtext[33m-[39msm
+[33m--[39mline[33m-
+[39mheight))[33m![39m
+important}[33m.[39mte
+xt[33m-[39msm{font[3
+3m-[39msize[33m:[39m
+[36mvar[39m([33m--[
+39mtext[33m-[39msm)[
+33m;[39mline[33m-[39
+mheight[33m:[39m[36m
+var[39m([33m--[39mtw
+[33m-[39mleading[33m
+,[39m[36mvar[39m([3
+3m--[39mtext[33m-[39
+msm[33m--[39mline[33
+m-[39mheight))}[33m.
+[39mtext[33m-[39mxl{f
+ont[33m-[39msize[33m
+:[39m[36mvar[39m([3
+3m--[39mtext[33m-[39
+mxl)[33m;[39mline[33
+m-[39mheight[33m:[39
+m[36mvar[39m([33m--
+[39mtw[33m-[39mleadin
+g[33m,[39m[36mvar[3
+9m([33m--[39mtext[33
+m-[39mxl[33m--[39mli
+ne[33m-[39mheight))}
+[33m.[39mtext[33m-[3
+9mxs{font[33m-[39msiz
+e[33m:[39m[36mvar[3
+9m([33m--[39mtext[33
+m-[39mxs)[33m;[39mli
+ne[33m-[39mheight[33
+m:[39m[36mvar[39m([
+33m--[39mtw[33m-[39m
+leading[33m,[39m[36m
+var[39m([33m--[39mte
+xt[33m-[39mxs[33m--
+[39mline[33m-[39mheig
+ht))}[33m.[39mtext[3
+3m-[39m[37m[41m[1m\
+[22m[49m[39m[[35m0
+[39m[37m[41m[1m\[22
+m[49m[39m[35m.4[39m
+em[37m[41m[1m\[22m
+[49m[39m]{font[33m-[
+39msize[33m:[39m[35m
+.4[39mem}[33m.[39mte
+xt[33m-[39m[37m[41m
+[1m\[22m[49m[39m[[
+35m0[39m[37m[41m[1m
+\[22m[49m[39m[35m.7
+[39mrem[37m[41m[1m\
+[22m[49m[39m]{font[
+33m-[39msize[33m:[39
+m[35m.7[39mrem}[33m.
+[39mtext[33m-[39m[3
+7m[41m[1m\[22m[49m
+[39m[[35m0[39m[37m[
+41m[1m\[22m[49m[39m
+[35m.8[39mrem[37m[4
+1m[1m\[22m[49m[39m]
+{font[33m-[39msize[3
+3m:[39m[35m.8[39mrem
+}[33m.[39mtext[33m-
+[39m[37m[41m[1m\[22
+m[49m[39m[[35m0[39m
+[37m[41m[1m\[22m[4
+9m[39m[35m.65[39mrem
+[37m[41m[1m\[22m[4
+9m[39m]{font[33m-[39
+msize[33m:[39m[35m.6
+5[39mrem}[33m.[39mte
+xt[33m-[39m[37m[41m
+[1m\[22m[49m[39m[[
+35m0[39m[37m[41m[1m
+\[22m[49m[39m[35m.9
+5[39mrem[37m[41m[1m
+\[22m[49m[39m]{font
+[33m-[39msize[33m:[3
+9m[35m.95[39mrem}[33
+m.[39mtext[33m-[39m
+[37m[41m[1m\[22m[49
+m[39m[[35m1[39m[37m
+[41m[1m\[22m[49m[3
+9m[35m.05[39mem[37m
+[41m[1m\[22m[49m[39
+m]{font[33m-[39msize
+[33m:[39m[35m1.05[39
+mem}[33m.[39mtext[33
+m-[39m[37m[41m[1m\
+[22m[49m[39m[[35m1[
+39mrem[37m[41m[1m\[
+22m[49m[39m]{font[33
+m-[39msize[33m:[39m
+[35m1[39mrem}[33m.[3
+9mtext[33m-[39m[37m
+[41m[1m\[22m[49m[39
+m[[35m10[39mpx[37m[
+41m[1m\[22m[49m[39m
+]{font[33m-[39msize[
+33m:[39m[35m10[39mpx
+}[33m.[39mleading[33
+m-[39mrelaxed{[33m--
+[39mtw[33m-[39mleadin
+g[33m:[39m[36mvar[3
+9m([33m--[39mleading
+[33m-[39mrelaxed)[33m
+;[39mline[33m-[39mhe
+ight[33m:[39m[36mvar
+[39m([33m--[39mleadi
+ng[33m-[39mrelaxed)}
+[33m.[39m[37m[41m[1
+m\[22m[49m[39m[33m!
+[39mfont[33m-[39mmed
+ium{[33m--[39mtw[33m
+-[39mfont[33m-[39mwe
+ight[33m:[39m[36mvar
+[39m([33m--[39mfont
+[33m-[39mweight[33m-
+[39mmedium)[33m![39mi
+mportant[33m;[39mfont
+[33m-[39mweight[33m:
+[39m[36mvar[39m([33
+m--[39mfont[33m-[39m
+weight[33m-[39mmedium
+)[33m![39mimportant}
+[33m.[39mfont[33m-[3
+9mbold{[33m--[39mtw[
+33m-[39mfont[33m-[39
+mweight[33m:[39m[36m
+var[39m([33m--[39mfo
+nt[33m-[39mweight[33
+m-[39mbold)[33m;[39m
+font[33m-[39mweight[
+33m:[39m[36mvar[39m(
+[33m--[39mfont[33m-
+[39mweight[33m-[39mbo
+ld)}[33m.[39mfont[33
+m-[39mlight{[33m--[3
+9mtw[33m-[39mfont[33
+m-[39mweight[33m:[39
+m[36mvar[39m([33m--
+[39mfont[33m-[39mweig
+ht[33m-[39mlight)[33
+m;[39mfont[33m-[39mw
+eight[33m:[39m[36mva
+r[39m([33m--[39mfont
+[33m-[39mweight[33m-
+[39mlight)}[33m.[39m
+font[33m-[39mmedium{
+[33m--[39mtw[33m-[39
+mfont[33m-[39mweight
+[33m:[39m[36mvar[39m
+([33m--[39mfont[33m-
+[39mweight[33m-[39mm
+edium)[33m;[39mfont[
+33m-[39mweight[33m:[
+39m[36mvar[39m([33m-
+-[39mfont[33m-[39mwe
+ight[33m-[39mmedium)}
+[33m.[39mfont[33m-[
+39mnormal{[33m--[39mt
+w[33m-[39mfont[33m-
+[39mweight[33m:[39m[
+36mvar[39m([33m--[39
+mfont[33m-[39mweight
+[33m-[39mnormal)[33m;
+[39mfont[33m-[39mwei
+ght[33m:[39m[36mvar
+[39m([33m--[39mfont[
+33m-[39mweight[33m-[
+39mnormal)}[33m.[39mf
+ont[33m-[39msemibold{
+[33m--[39mtw[33m-[3
+9mfont[33m-[39mweight
+[33m:[39m[36mvar[39
+m([33m--[39mfont[33m
+-[39mweight[33m-[39m
+semibold)[33m;[39mfon
+t[33m-[39mweight[33m
+:[39m[36mvar[39m([3
+3m--[39mfont[33m-[39
+mweight[33m-[39msemib
+old)}[33m.[39mtrackin
+g[33m-[39m[37m[41m
+[1m\[22m[49m[39m[[3
+5m0[39m[37m[41m[1m\
+[22m[49m[39m[35m.2
+[39mem[37m[41m[1m\[
+22m[49m[39m]{[33m--
+[39mtw[33m-[39mtracki
+ng[33m:[39m[35m.2[3
+9mem[33m;[39mletter[
+33m-[39mspacing[33m:
+[39m[35m.2[39mem}[33
+m.[39mtracking[33m-[
+39mwide{[33m--[39mtw
+[33m-[39mtracking[33m
+:[39m[36mvar[39m([3
+3m--[39mtracking[33m-
+[39mwide)[33m;[39mle
+tter[33m-[39mspacing
+[33m:[39m[36mvar[39m
+([33m--[39mtracking[
+33m-[39mwide)}[33m.[
+39mtracking[33m-[39mw
+idest{[33m--[39mtw[3
+3m-[39mtracking[33m:
+[39m[36mvar[39m([33m
+--[39mtracking[33m-[
+39mwidest)[33m;[39mle
+tter[33m-[39mspacing
+[33m:[39m[36mvar[39m
+([33m--[39mtracking[
+33m-[39mwidest)}[33m.
+[39mwhitespace[33m-[
+39mpre[33m-[39mwrap{w
+hite[33m-[39mspace[3
+3m:[39mpre[33m-[39mw
+rap}[33m.[39m[37m[4
+1m[1m\[22m[49m[39m
+[33m![39mtext[33m-[3
+9m[37m[41m[1m\[22m
+[49m[39m[[37m[41m[1
+m\[22m[49m[39m[33m#
+[39m[35m121317[39m[
+37m[41m[1m\[22m[49m
+[39m]{color[33m:[39m
+[33m#[39m[35m121317
+[39m[33m![39mimportan
+t}[33m.[39mtext[33m-
+[39m[37m[41m[1m\[2
+2m[49m[39m[[37m[41m
+[1m\[22m[49m[39m[3
+3m#[39m[35m00[39m[3
+3mB95C[39m[37m[41m[
+1m\[22m[49m[39m]{col
+or[33m:[39m[33m#[39
+m[35m00[39mb95c}[33m
+.[39mtext[33m-[39m[
+37m[41m[1m\[22m[49m
+[39m[[37m[41m[1m\[
+22m[49m[39m[33m#[39
+m[35m3186[39m[33mFF
+[39m[37m[41m[1m\[22
+m[49m[39m]{color[33m
+:[39m[33m#[39m[35m3
+186[39mff}[33m.[39mt
+ext[33m-[39m[37m[41
+m[1m\[22m[49m[39m[
+[37m[41m[1m\[22m[49
+m[39m[33m#[39m[35m3
+186[39m[33mFF[39m[3
+7m[41m[1m\[22m[49m
+[39m][37m[41m[1m\[2
+2m[49m[39m[33m/[39m
+[35m50[39m{color[33m
+:[39moklab([35m63.461
+4[39m[33m%[39m [33m
+-[39m[35m.0404659[39
+m [33m-[39m[35m.1932
+71[39m[33m/[39m[35m
+.5[39m)}[33m.[39mtex
+t[33m-[39m[37m[41m
+[1m\[22m[49m[39m[[3
+7m[41m[1m\[22m[49m
+[39m[33m#[39m[35m121
+317[39m[37m[41m[1m\
+[22m[49m[39m]{color
+[33m:[39m[33m#[39m[
+35m121317[39m}[33m.[
+39mtext[33m-[39mblack
+{color[33m:[39m[36mv
+ar[39m([33m--[39mcol
+or[33m-[39mblack)}[3
+3m.[39mtext[33m-[39m
+slate[33m-[39m[35m50
+[39m{color[33m:[39m
+[36mvar[39m([33m--[3
+9mcolor[33m-[39mslate
+[33m-[39m[35m50[39m
+)}[33m.[39mtext[33m-
+[39mslate[33m-[39m[
+35m200[39m{color[33m:
+[39m[36mvar[39m([33
+m--[39mcolor[33m-[39
+mslate[33m-[39m[35m2
+00[39m)}[33m.[39mtex
+t[33m-[39mslate[33m-
+[39m[35m300[39m{colo
+r[33m:[39m[36mvar[3
+9m([33m--[39mcolor[3
+3m-[39mslate[33m-[39
+m[35m300[39m)}[33m.
+[39mtext[33m-[39mslat
+e[33m-[39m[35m400[3
+9m{color[33m:[39m[36
+mvar[39m([33m--[39mc
+olor[33m-[39mslate[3
+3m-[39m[35m400[39m)}
+[33m.[39mtext[33m-[
+39mslate[33m-[39m[35
+m500[39m{color[33m:[
+39m[36mvar[39m([33m-
+-[39mcolor[33m-[39ms
+late[33m-[39m[35m500
+[39m)}[33m.[39mtext
+[33m-[39mslate[33m-[
+39m[35m600[39m{color
+[33m:[39m[36mvar[39m
+([33m--[39mcolor[33m
+-[39mslate[33m-[39m
+[35m600[39m)}[33m.[3
+9mtext[33m-[39mwhite{
+color[33m:[39m[36mva
+r[39m([33m--[39mcolo
+r[33m-[39mwhite)}[33
+m.[39muppercase{text[
+33m-[39mtransform[33m
+:[39muppercase}[33m.
+[39mitalic{font[33m-[
+39mstyle[33m:[39mital
+ic}[33m.[39mantialias
+ed{[33m-[39mwebkit[3
+3m-[39mfont[33m-[39m
+smoothing[33m:[39mant
+ialiased[33m;[39m[33
+m-[39mmoz[33m-[39mos
+x[33m-[39mfont[33m-
+[39msmoothing[33m:[39
+mgrayscale}[33m.[39mp
+laceholder[33m-[39msl
+ate[33m-[39m[35m600
+[39m[33m:[39m[33m:[
+39mplaceholder{color[3
+3m:[39m[36mvar[39m(
+[33m--[39mcolor[33m-
+[39mslate[33m-[39m[3
+5m600[39m)}[33m.[39m
+opacity[33m-[39m[35m
+0[39m{opacity[33m:[3
+9m[35m0[39m}[33m.[3
+9mopacity[33m-[39m[3
+5m10[39m{opacity[33m:
+[39m[35m.1[39m}[33m
+.[39mopacity[33m-[39
+m[35m100[39m{opacity
+[33m:[39m[35m1[39m}
+[33m.[39mshadow[33m-
+[39m[35m2[39mxl{[33m
+--[39mtw[33m-[39msha
+dow[33m:[39m[35m0[3
+9m [35m25[39mpx 
+[35m50[39mpx [33m-[
+39m[35m12[39mpx [36m
+var[39m([33m--[39mtw
+[33m-[39mshadow[33m-
+[39mcolor[33m,[39m[
+33m#[39m[35m00000040
+[39m)[33m;[39mbox[33
+m-[39mshadow[33m:[39
+m[36mvar[39m([33m--
+[39mtw[33m-[39minset
+[33m-[39mshadow)[33m,
+[39m [36mvar[39m([3
+3m--[39mtw[33m-[39mi
+nset[33m-[39mring[33
+m-[39mshadow)[33m,[3
+9m [36mvar[39m([33m-
+-[39mtw[33m-[39mring
+[33m-[39moffset[33m-
+[39mshadow)[33m,[39m
+ [36mvar[39m([33m--
+[39mtw[33m-[39mring[
+33m-[39mshadow)[33m,
+[39m [36mvar[39m([33
+m--[39mtw[33m-[39msh
+adow)}[33m.[39mshadow
+[33m-[39minner{[33m-
+-[39mtw[33m-[39mshad
+ow[33m:[39minset 
+[35m0[39m 
+[35m2[39mpx 
+[35m4[39mpx 
+[35m0[39m [36mvar[3
+9m([33m--[39mtw[33m-
+[39mshadow[33m-[39mc
+olor[33m,[39m[33m#[
+39m[35m0000000[39md)
+[33m;[39mbox[33m-[39
+mshadow[33m:[39m[36m
+var[39m([33m--[39mtw
+[33m-[39minset[33m-
+[39mshadow)[33m,[39m 
+[36mvar[39m([33m--[
+39mtw[33m-[39minset[
+33m-[39mring[33m-[39
+mshadow)[33m,[39m [3
+6mvar[39m([33m--[39m
+tw[33m-[39mring[33m-
+[39moffset[33m-[39ms
+hadow)[33m,[39m [36m
+var[39m([33m--[39mtw
+[33m-[39mring[33m-[
+39mshadow)[33m,[39m 
+[36mvar[39m([33m--[3
+9mtw[33m-[39mshadow)}
+[33m.[39mshadow[33m-
+[39mlg{[33m--[39mtw
+[33m-[39mshadow[33m:
+[39m[35m0[39m 
+[35m10[39mpx 
+[35m15[39mpx [33m-[
+39m[35m3[39mpx [36mv
+ar[39m([33m--[39mtw
+[33m-[39mshadow[33m-
+[39mcolor[33m,[39m[3
+3m#[39m[35m0000001[3
+9ma)[33m,[39m 
+[35m0[39m 
+[35m4[39mpx 
+[35m6[39mpx [33m-[3
+9m[35m4[39mpx [36mva
+r[39m([33m--[39mtw[
+33m-[39mshadow[33m-[
+39mcolor[33m,[39m[33
+m#[39m[35m0000001[39
+ma)[33m;[39mbox[33m-
+[39mshadow[33m:[39m
+[36mvar[39m([33m--[3
+9mtw[33m-[39minset[3
+3m-[39mshadow)[33m,[
+39m [36mvar[39m([33m
+--[39mtw[33m-[39mins
+et[33m-[39mring[33m-
+[39mshadow)[33m,[39m
+ [36mvar[39m([33m--
+[39mtw[33m-[39mring[
+33m-[39moffset[33m-[
+39mshadow)[33m,[39m 
+[36mvar[39m([33m--[3
+9mtw[33m-[39mring[33
+m-[39mshadow)[33m,[3
+9m [36mvar[39m([33m-
+-[39mtw[33m-[39mshad
+ow)}[33m.[39mshadow[
+33m-[39m[37m[41m[1m
+\[22m[49m[39m[[37m
+[41m[1m\[22m[49m[39
+m[33m#[39m[35m00[39
+m[33mB95C[39m[37m[4
+1m[1m\[22m[49m[39m]
+[37m[41m[1m\[22m[4
+9m[39m[33m/[39m[35m
+20[39m{[33m--[39mtw
+[33m-[39mshadow[33m-
+[39mcolor[33m:[39m[3
+3m#[39m[35m00[39mb95
+c33}[33m@[39msupports
+ (color[33m:[39mcolor
+[33m-[39mmix([36min
+[39m lab[33m,[39m 
+red[33m,[39m red)){[
+33m.[39mshadow[33m-[
+39m[37m[41m[1m\[22m
+[49m[39m[[37m[41m[
+1m\[22m[49m[39m[33m
+#[39m[35m00[39m[33m
+B95C[39m[37m[41m[1m
+\[22m[49m[39m][37m
+[41m[1m\[22m[49m[39
+m[33m/[39m[35m20[39
+m{[33m--[39mtw[33m-
+[39mshadow[33m-[39mco
+lor[33m:[39mcolor[33
+m-[39mmix([36min[39m
+ oklab[33m,[39m oklab
+([35m68.775[39m[33m%
+[39m [33m-[39m[35m.
+160996[39m [35m.08779
+45[39m[33m/[39m[35m
+.2[39m) [36mvar[39m(
+[33m--[39mtw[33m-[3
+9mshadow[33m-[39malph
+a)[33m,[39m transpare
+nt)}}[33m.[39mshadow
+[33m-[39m[37m[41m[1
+m\[22m[49m[39m[[37m
+[41m[1m\[22m[49m[3
+9m[33m#[39m[35m3186
+[39m[33mFF[39m[37m[
+41m[1m\[22m[49m[39m
+][37m[41m[1m\[22m[
+49m[39m[33m/[39m[35
+m20[39m{[33m--[39mtw
+[33m-[39mshadow[33m-
+[39mcolor[33m:[39m[
+33m#[39m[35m3186[39m
+ff33}[33m@[39msupport
+s (color[33m:[39mcolo
+r[33m-[39mmix([36min
+[39m lab[33m,[39m 
+red[33m,[39m red)){[
+33m.[39mshadow[33m-[
+39m[37m[41m[1m\[22m
+[49m[39m[[37m[41m[
+1m\[22m[49m[39m[33m
+#[39m[35m3186[39m[3
+3mFF[39m[37m[41m[1m
+\[22m[49m[39m][37m
+[41m[1m\[22m[49m[39
+m[33m/[39m[35m20[39
+m{[33m--[39mtw[33m-
+[39mshadow[33m-[39mco
+lor[33m:[39mcolor[33
+m-[39mmix([36min[39m
+ oklab[33m,[39m oklab
+([35m63.4614[39m[33m
+%[39m [33m-[39m[35m
+.0404659[39m [33m-[3
+9m[35m.193271[39m[33
+m/[39m[35m.2[39m) [
+36mvar[39m([33m--[39
+mtw[33m-[39mshadow[3
+3m-[39malpha)[33m,[3
+9m transparent)}}[33m.
+[39mblur[33m-[39msm{
+[33m--[39mtw[33m-[3
+9mblur[33m:[39mblur(
+[36mvar[39m([33m--[3
+9mblur[33m-[39msm))[
+33m;[39mfilter[33m:[
+39m[36mvar[39m([33m-
+-[39mtw[33m-[39mblur
+[33m,[39m) [36mvar[
+39m([33m--[39mtw[33m
+-[39mbrightness[33m,
+[39m) [36mvar[39m([3
+3m--[39mtw[33m-[39mc
+ontrast[33m,[39m) [3
+6mvar[39m([33m--[39m
+tw[33m-[39mgrayscale
+[33m,[39m) [36mvar[3
+9m([33m--[39mtw[33m-
+[39mhue[33m-[39mrota
+te[33m,[39m) [36mvar
+[39m([33m--[39mtw[3
+3m-[39minvert[33m,[3
+9m) [36mvar[39m([33m
+--[39mtw[33m-[39msat
+urate[33m,[39m) [36m
+var[39m([33m--[39mtw
+[33m-[39msepia[33m,
+[39m) [36mvar[39m([3
+3m--[39mtw[33m-[39md
+rop[33m-[39mshadow[3
+3m,[39m)}[33m.[39mdr
+op[33m-[39mshadow[33
+m-[39m[37m[41m[1m\
+[22m[49m[39m[[35m0[
+39m_0_8px_rgba[37m[41
+m[1m\[22m[49m[39m(
+[35m0[39m[37m[41m[1
+m\[22m[49m[39m[33m,
+[39m[35m185[39m[37m
+[41m[1m\[22m[49m[3
+9m[33m,[39m[35m92[3
+9m[37m[41m[1m\[22m
+[49m[39m[33m,[39m[3
+5m0[39m[37m[41m[1m\
+[22m[49m[39m[35m.8
+[39m[37m[41m[1m\[22
+m[49m[39m)[37m[41m
+[1m\[22m[49m[39m]{[
+33m--[39mtw[33m-[39m
+drop[33m-[39mshadow[
+33m-[39msize[33m:[39
+mdrop[33m-[39mshadow(
+[35m0[39m 
+[35m0[39m 
+[35m8[39mpx [36mvar
+[39m([33m--[39mtw[33
+m-[39mdrop[33m-[39ms
+hadow[33m-[39mcolor[
+33m,[39m[33m#[39m[3
+5m00[39mb95ccc))[33m;
+[39m[33m--[39mtw[33
+m-[39mdrop[33m-[39ms
+hadow[33m:[39m[36mva
+r[39m([33m--[39mtw[
+33m-[39mdrop[33m-[39
+mshadow[33m-[39msize)
+[33m;[39mfilter[33m:
+[39m[36mvar[39m([33
+m--[39mtw[33m-[39mbl
+ur[33m,[39m) [36mvar
+[39m([33m--[39mtw[3
+3m-[39mbrightness[33m
+,[39m) [36mvar[39m(
+[33m--[39mtw[33m-[39
+mcontrast[33m,[39m) 
+[36mvar[39m([33m--[3
+9mtw[33m-[39mgrayscal
+e[33m,[39m) [36mvar
+[39m([33m--[39mtw[33
+m-[39mhue[33m-[39mro
+tate[33m,[39m) [36mv
+ar[39m([33m--[39mtw
+[33m-[39minvert[33m,
+[39m) [36mvar[39m([3
+3m--[39mtw[33m-[39ms
+aturate[33m,[39m) [3
+6mvar[39m([33m--[39m
+tw[33m-[39msepia[33m
+,[39m) [36mvar[39m(
+[33m--[39mtw[33m-[39
+mdrop[33m-[39mshadow
+[33m,[39m)}[33m.[39m
+drop[33m-[39mshadow[
+33m-[39mmd{[33m--[39
+mtw[33m-[39mdrop[33m
+-[39mshadow[33m-[39m
+size[33m:[39mdrop[33
+m-[39mshadow([35m0[3
+9m [35m3[39mpx 
+[35m3[39mpx [36mvar
+[39m([33m--[39mtw[33
+m-[39mdrop[33m-[39ms
+hadow[33m-[39mcolor[
+33m,[39m[33m#[39m[3
+5m0000001[39mf))[33m;
+[39m[33m--[39mtw[33
+m-[39mdrop[33m-[39ms
+hadow[33m:[39mdrop[3
+3m-[39mshadow([36mvar
+[39m([33m--[39mdrop
+[33m-[39mshadow[33m-
+[39mmd))[33m;[39mfilt
+er[33m:[39m[36mvar[
+39m([33m--[39mtw[33m
+-[39mblur[33m,[39m) 
+[36mvar[39m([33m--[
+39mtw[33m-[39mbrightn
+ess[33m,[39m) [36mva
+r[39m([33m--[39mtw[
+33m-[39mcontrast[33m,
+[39m) [36mvar[39m([
+33m--[39mtw[33m-[39m
+grayscale[33m,[39m) 
+[36mvar[39m([33m--[3
+9mtw[33m-[39mhue[33m
+-[39mrotate[33m,[39m
+) [36mvar[39m([33m--
+[39mtw[33m-[39minver
+t[33m,[39m) [36mvar
+[39m([33m--[39mtw[33
+m-[39msaturate[33m,[
+39m) [36mvar[39m([33
+m--[39mtw[33m-[39mse
+pia[33m,[39m) [36mva
+r[39m([33m--[39mtw[
+33m-[39mdrop[33m-[39
+mshadow[33m,[39m)}[3
+3m.[39mtransition[33m
+-[39mall{transition[3
+3m-[39mproperty[33m:
+[39mall[33m;[39mtrans
+ition[33m-[39mtiming
+[33m-[39m[36mfunction
+[39m[33m:[39m[36mva
+r[39m([33m--[39mtw[
+33m-[39mease[33m,[39
+m[36mvar[39m([33m--
+[39m[36mdefault[39m[
+33m-[39mtransition[33
+m-[39mtiming[33m-[39
+m[36mfunction[39m))[
+33m;[39mtransition[33
+m-[39mduration[33m:[
+39m[36mvar[39m([33m-
+-[39mtw[33m-[39mdura
+tion[33m,[39m[36mvar
+[39m([33m--[39m[36m
+default[39m[33m-[39m
+transition[33m-[39mdu
+ration))}[33m.[39mtra
+nsition[33m-[39mcolor
+s{transition[33m-[39m
+property[33m:[39mcolo
+r[33m,[39mbackground
+[33m-[39mcolor[33m,[
+39mborder[33m-[39mcol
+or[33m,[39moutline[3
+3m-[39mcolor[33m,[39
+mtext[33m-[39mdecorat
+ion[33m-[39mcolor[33
+m,[39mfill[33m,[39ms
+troke[33m,[39m[33m--
+[39mtw[33m-[39mgradi
+ent[33m-[39m[36mfrom
+[39m[33m,[39m[33m--
+[39mtw[33m-[39mgradi
+ent[33m-[39mvia[33m,
+[39m[33m--[39mtw[33
+m-[39mgradient[33m-[
+39mto[33m;[39mtransit
+ion[33m-[39mtiming[3
+3m-[39m[36mfunction[
+39m[33m:[39m[36mvar
+[39m([33m--[39mtw[33
+m-[39mease[33m,[39m
+[36mvar[39m([33m--[3
+9m[36mdefault[39m[33
+m-[39mtransition[33m-
+[39mtiming[33m-[39m
+[36mfunction[39m))[33
+m;[39mtransition[33m-
+[39mduration[33m:[39
+m[36mvar[39m([33m--
+[39mtw[33m-[39mdurati
+on[33m,[39m[36mvar[
+39m([33m--[39m[36mde
+fault[39m[33m-[39mtr
+ansition[33m-[39mdura
+tion))}[33m.[39mtrans
+ition[33m-[39mopacity
+{transition[33m-[39mp
+roperty[33m:[39mopaci
+ty[33m;[39mtransition
+[33m-[39mtiming[33m-
+[39m[36mfunction[39m
+[33m:[39m[36mvar[39
+m([33m--[39mtw[33m-
+[39mease[33m,[39m[36
+mvar[39m([33m--[39m
+[36mdefault[39m[33m-
+[39mtransition[33m-[3
+9mtiming[33m-[39m[36
+mfunction[39m))[33m;
+[39mtransition[33m-[3
+9mduration[33m:[39m[
+36mvar[39m([33m--[39
+mtw[33m-[39mduration
+[33m,[39m[36mvar[39m
+([33m--[39m[36mdefau
+lt[39m[33m-[39mtrans
+ition[33m-[39mduratio
+n))}[33m.[39mtransiti
+on[33m-[39mtransform{
+transition[33m-[39mpr
+operty[33m:[39mtransf
+orm[33m,[39mtranslate
+[33m,[39mscale[33m,
+[39mrotate[33m;[39mtr
+ansition[33m-[39mtimi
+ng[33m-[39m[36mfunct
+ion[39m[33m:[39m[36
+mvar[39m([33m--[39mt
+w[33m-[39mease[33m,
+[39m[36mvar[39m([33m
+--[39m[36mdefault[39
+m[33m-[39mtransition
+[33m-[39mtiming[33m-
+[39m[36mfunction[39m)
+)[33m;[39mtransition
+[33m-[39mduration[33m
+:[39m[36mvar[39m([3
+3m--[39mtw[33m-[39md
+uration[33m,[39m[36m
+var[39m([33m--[39m[
+36mdefault[39m[33m-[
+39mtransition[33m-[39
+mduration))}[33m.[39m
+duration[33m-[39m[35
+m500[39m{[33m--[39mt
+w[33m-[39mduration[3
+3m:[39m[35m.5[39ms[
+33m;[39mtransition[33
+m-[39mduration[33m:[
+39m[35m.5[39ms}[33m.
+[39mduration[33m-[39
+m[35m700[39m{[33m--
+[39mtw[33m-[39mdurati
+on[33m:[39m[35m.7[3
+9ms[33m;[39mtransitio
+n[33m-[39mduration[3
+3m:[39m[35m.7[39ms}
+[33m.[39mduration[33m
+-[39m[35m1000[39m{[
+33m--[39mtw[33m-[39m
+duration[33m:[39m[35
+m1[39ms[33m;[39mtran
+sition[33m-[39mdurati
+on[33m:[39m[35m1[39
+ms}[33m@[39mmedia (ho
+ver[33m:[39mhover){[
+33m.[39mgroup[33m-[3
+9mhover[37m[41m[1m\
+[22m[49m[39m[33m:[3
+9mscale[33m-[39m[35m
+105[39m[33m:[39mis(
+[33m:[39mwhere([33m.
+[39mgroup)[33m:[39mho
+ver [33m*[39m){[33m-
+-[39mtw[33m-[39mscal
+e[33m-[39mx[33m:[39
+m[35m105[39m[33m%[3
+9m[33m;[39m[33m--[3
+9mtw[33m-[39mscale[3
+3m-[39my[33m:[39m[3
+5m105[39m[33m%[39m[
+33m;[39m[33m--[39mtw
+[33m-[39mscale[33m-
+[39mz[33m:[39m[35m10
+5[39m[33m%[39m[33m;
+[39mscale[33m:[39m[
+36mvar[39m([33m--[39
+mtw[33m-[39mscale[33
+m-[39mx) [36mvar[39m
+([33m--[39mtw[33m-[
+39mscale[33m-[39my)}
+[33m.[39mgroup[33m-[
+39mhover[37m[41m[1m\
+[22m[49m[39m[33m:[
+39mopacity[33m-[39m[
+35m100[39m[33m:[39mi
+s([33m:[39mwhere([33
+m.[39mgroup)[33m:[39
+mhover [33m*[39m){opa
+city[33m:[39m[35m1[
+39m}[33m.[39mhover[3
+7m[41m[1m\[22m[49m
+[39m[33m:[39mscale[3
+3m-[39m[35m105[39m[
+33m:[39mhover{[33m--
+[39mtw[33m-[39mscale
+[33m-[39mx[33m:[39m
+[35m105[39m[33m%[39m
+[33m;[39m[33m--[39m
+tw[33m-[39mscale[33m
+-[39my[33m:[39m[35m
+105[39m[33m%[39m[33
+m;[39m[33m--[39mtw[
+33m-[39mscale[33m-[3
+9mz[33m:[39m[35m105
+[39m[33m%[39m[33m;[
+39mscale[33m:[39m[36
+mvar[39m([33m--[39mt
+w[33m-[39mscale[33m-
+[39mx) [36mvar[39m(
+[33m--[39mtw[33m-[39
+mscale[33m-[39my)}[3
+3m.[39mhover[37m[41m
+[1m\[22m[49m[39m[3
+3m:[39mbg[33m-[39m[
+37m[41m[1m\[22m[49m
+[39m[[37m[41m[1m\[
+22m[49m[39m[33m#[39
+m[35m3186[39m[33mFF
+[39m[37m[41m[1m\[22
+m[49m[39m][37m[41m
+[1m\[22m[49m[39m[33
+m/[39m[35m10[39m[33
+m:[39mhover{background
+[33m-[39mcolor[33m:
+[39moklab([35m63.4614
+[39m[33m%[39m [33m-
+[39m[35m.0404659[39m 
+[33m-[39m[35m.193271
+[39m[33m/[39m[35m.1
+[39m)}[33m.[39mhover
+[37m[41m[1m\[22m[4
+9m[39m[33m:[39mbg[3
+3m-[39mwhite[33m:[39
+mhover{background[33m-
+[39mcolor[33m:[39m[
+36mvar[39m([33m--[39
+mcolor[33m-[39mwhite)
+}[33m.[39mhover[37m
+[41m[1m\[22m[49m[39
+m[33m:[39mtext[33m-
+[39mwhite[33m:[39mhov
+er{color[33m:[39m[36
+mvar[39m([33m--[39mc
+olor[33m-[39mwhite)}}
+[33m.[39mfocus[37m[
+41m[1m\[22m[49m[39m
+[33m:[39mborder[33m-
+[39mwhite[37m[41m[1
+m\[22m[49m[39m[33m/
+[39m[35m30[39m[33m:
+[39mfocus{border[33m-
+[39mcolor[33m:[39m[
+33m#[39mffffff4d}[33m
+@[39msupports (color[
+33m:[39mcolor[33m-[3
+9mmix([36min[39m 
+lab[33m,[39m 
+red[33m,[39m red)){[
+33m.[39mfocus[37m[41
+m[1m\[22m[49m[39m[
+33m:[39mborder[33m-[
+39mwhite[37m[41m[1m\
+[22m[49m[39m[33m/[
+39m[35m30[39m[33m:[
+39mfocus{border[33m-[
+39mcolor[33m:[39mcolo
+r[33m-[39mmix([36min
+[39m oklab[33m,[39m 
+[36mvar[39m([33m--[
+39mcolor[33m-[39mwhit
+e) [35m30[39m[33m%[
+39m[33m,[39m transpar
+ent)}}[33m.[39mfocus
+[37m[41m[1m\[22m[49
+m[39m[33m:[39mshadow
+[33m-[39m[37m[41m[
+1m\[22m[49m[39m[[35
+m0[39m_0_20px_rgba[37
+m[41m[1m\[22m[49m[
+39m([35m255[39m[37m
+[41m[1m\[22m[49m[39
+m[33m,[39m[35m255[3
+9m[37m[41m[1m\[22m
+[49m[39m[33m,[39m[3
+5m255[39m[37m[41m[1
+m\[22m[49m[39m[33m,
+[39m[35m0[39m[37m[
+41m[1m\[22m[49m[39m
+[35m.05[39m[37m[41m
+[1m\[22m[49m[39m)[
+37m[41m[1m\[22m[49m
+[39m][33m:[39mfocus{
+[33m--[39mtw[33m-[3
+9mshadow[33m:[39m[35
+m0[39m [35m0[39m 
+[35m20[39mpx [36mvar
+[39m([33m--[39mtw[3
+3m-[39mshadow[33m-[3
+9mcolor[33m,[39m[33m
+#[39mffffff0d)[33m;[
+39mbox[33m-[39mshadow
+[33m:[39m[36mvar[39
+m([33m--[39mtw[33m-
+[39minset[33m-[39msha
+dow)[33m,[39m [36mva
+r[39m([33m--[39mtw[
+33m-[39minset[33m-[3
+9mring[33m-[39mshadow
+)[33m,[39m [36mvar[
+39m([33m--[39mtw[33m
+-[39mring[33m-[39mof
+fset[33m-[39mshadow)
+[33m,[39m [36mvar[39
+m([33m--[39mtw[33m-
+[39mring[33m-[39mshad
+ow)[33m,[39m [36mvar
+[39m([33m--[39mtw[3
+3m-[39mshadow)}[33m.
+[39mfocus[37m[41m[1m
+\[22m[49m[39m[33m:
+[39moutline[33m-[39mn
+one[33m:[39mfocus{[3
+3m--[39mtw[33m-[39mo
+utline[33m-[39mstyle
+[33m:[39mnone[33m;[3
+9moutline[33m-[39msty
+le[33m:[39mnone}[33m
+.[39mdisabled[37m[41
+m[1m\[22m[49m[39m[
+33m:[39mopacity[33m-
+[39m[35m50[39m[33m:
+[39mdisabled{opacity[3
+3m:[39m[35m.5[39m}[
+33m@[39mmedia (min[33
+m-[39mwidth[33m:[39m
+[35m40[39mrem){[33m.
+[39msm[37m[41m[1m\
+[22m[49m[39m[33m:[3
+9mblock{display[33m:[
+39mblock}}[33m@[39mme
+dia (min[33m-[39mwidt
+h[33m:[39m[35m48[39
+mrem){[33m.[39mmd[37
+m[41m[1m\[22m[49m[
+39m[33m:[39mflex{disp
+lay[33m:[39mflex}[33
+m.[39mmd[37m[41m[1m
+\[22m[49m[39m[33m:
+[39minline{display[33m
+:[39minline}[33m.[39
+mmd[37m[41m[1m\[22m
+[49m[39m[33m:[39mmi
+n[33m-[39mw[33m-[39
+m[37m[41m[1m\[22m[
+49m[39m[[35m400[39mp
+x[37m[41m[1m\[22m[
+49m[39m]{min[33m-[39
+mwidth[33m:[39m[35m4
+00[39mpx}[33m.[39mmd
+[37m[41m[1m\[22m[4
+9m[39m[33m:[39mpx[3
+3m-[39m[35m24[39m{pa
+dding[33m-[39minline
+[33m:[39mcalc([36mvar
+[39m([33m--[39mspaci
+ng) [33m*[39m [35m24
+[39m)}}}[33m@[39mlay
+er reset{html[33m,[39
+mbody{height[33m:[39m
+[35m100[39m[33m%[39
+m}[33m*[39m{box[33m-
+[39msizing[33m:[39mb
+order[33m-[39mbox}img
+{max[33m-[39mwidth[3
+3m:[39m[35m100[39m[
+33m%[39m[33m;[39mhei
+ght[33m:[39mauto}ul[
+[36mclass[39m]{margin
+[33m:[39m[35m0[39m[
+33m;[39mpadding[33m:
+[39m[35m0[39m[33m;[
+39mlist[33m-[39mstyle
+[33m:[39mnone}input[
+33m,[39mtextarea[33m,
+[39mselect[33m,[39mb
+utton{font[33m-[39mfa
+mily[33m:[39minherit
+[33m;[39mfont[33m-[3
+9msize[33m:[39minheri
+t}a[33m:[39mfocus[33
+m-[39mvisible[33m,[3
+9mbutton[33m:[39mfocu
+s[33m-[39mvisible{out
+line[33m-[39moffset[
+33m:[39m[35m.2[39mre
+m}figure{margin[33m:[
+39m[35m0[39m}}[33m@
+[39mlayer tokens[33m;
+[39m[33m@[39mlayer la
+yout{[33m@[39mlayer g
+rid{body{grid[33m-[39
+mtemplate[33m-[39mcol
+umns[33m:[39m[fullble
+ed[33m-[39mstart][35
+m3[39mrem[main[33m-[
+39mstart][35m1[39mfr[
+main[33m-[39mend][35
+m3[39mrem[fullbleed[3
+3m-[39mend][33m;[39m
+grid[33m-[39mauto[33
+m-[39mrows[33m:[39mm
+in[33m-[39mcontent[3
+3m;[39mmargin[33m:[3
+9m[35m0[39m[33m;[39
+mdisplay[33m:[39mgrid
+}body[33m>[39m[33m*
+[39m{grid[33m-[39mcol
+umn[33m:[39mfullbleed
+}}[33m@[39mlayer navi
+gation{[33m.[39mheade
+r[33m-[39mwrapper{bac
+kground[33m:[39m[36m
+var[39m([33m--[39mth
+eme[33m-[39msurface[
+33m-[39msurface)[33m;
+[39mz[33m-[39mindex
+[33m:[39m[35m100[39m
+[33m;[39mposition[33
+m:[39mfixed[33m;[39m
+top[33m:[39m[35m0[3
+9m[33m;[39mleft[33m:
+[39m[35m0[39m[33m;
+[39mright[33m:[39m[3
+5m0[39m}header{flex[3
+3m-[39mdirection[33m:
+[39mrow[33m;[39malig
+n[33m-[39mitems[33m:
+[39mcenter[33m;[39mg
+ap[33m:[39m[35m2[39
+mrem[33m;[39mpadding
+[33m-[39mblock[33m:[
+39m[35m.5[39mrem[33m
+;[39mpadding[33m-[39
+minline[33m:[39m[35m
+3[39mrem[33m;[39mdis
+play[33m:[39mflex}hea
+der button[33m,[39mhe
+ader [33m.[39mmenu[3
+3m-[39mbutton[33m,[3
+9mheader [33m.[39mwal
+let[33m-[39madapter[
+33m-[39mdropdown{margi
+n[33m-[39mleft[33m:
+[39mauto}}[33m@[39mla
+yer welcome{[33m#[39m
+welcome h1 svg{width[3
+3m:[39mauto[33m;[39m
+height[33m:[39m[35m1
+[39mem[33m;[39mmargi
+n[33m:[39m[35m0[39m
+ auto[33m;[39mdisplay
+[33m:[39mblock}[33m#
+[39mwelcome p{text[33
+m-[39malign[33m:[39m
+center[33m;[39mcolor
+[33m:[39m[36mvar[39m
+([33m--[39mtheme[33m
+-[39msurface[33m-[39
+mon[33m-[39msurface)
+[33m;[39mfont[33m-[3
+9msize[33m:[39m[35m4
+.5[39mem[33m;[39mfon
+t[33m-[39mweight[33m
+:[39m[35m500[39m}[3
+3m#[39mwelcome p span{
+color[33m:[39m[36mva
+r[39m([33m--[39mthem
+e[33m-[39msurface[33
+m-[39mon[33m-[39msur
+face[33m-[39mvariant)
+[33m;[39mfont[33m-[
+39msize[33m:[39m[35m
+.7[39mem[33m;[39mdis
+play[33m:[39mblock}[
+33m#[39mwelcome [33m.
+[39mcta{flex[33m-[39
+mflow[33m:[39mwrap[3
+3m;[39mjustify[33m-[
+39mcontent[33m:[39mce
+nter[33m;[39mgap[33m
+:[39m[35m.3[39mem[3
+3m;[39mwidth[33m:[39
+m[35m90[39m[33m%[39
+m[33m;[39mmargin[33m
+:[39m[35m0[39m auto
+[33m;[39mdisplay[33m:
+[39mflex}[33m#[39mwe
+lcome [33m.[39mcta bu
+tton{font[33m-[39msiz
+e[33m:[39m[35m1.15[
+39mem}}[33m@[39mlayer
+ video{[33m#[39mvideo
+{padding[33m:[39m[35
+m0[39m [35m1[39mem}
+[33m#[39mvideo iframe{
+aspect[33m-[39mratio
+[33m:[39m[35m16[39m
+[33m/[39m[35m9[39m[
+33m;[39mborder[33m-[
+39mradius[33m:[39m[3
+5m2[39mem[33m;[39mwi
+dth[33m:[39m[35m100
+[39m[33m%[39m[33m;[
+39mheight[33m:[39maut
+o[33m;[39mmax[33m-[
+39mheight[33m:[39m[3
+5m75[39mvh[33m;[39mo
+verflow[33m:[39mclip}
+}[33m@[39mlayer produ
+ct{[33m#[39mproduct{g
+rid[33m-[39mtemplate
+[33m-[39mcolumns[33m:
+[39msubgrid[33m;[39m
+display[33m:[39mgrid}
+[33m#[39mproduct[33m
+>[39m[33m:[39mnot([
+33m.[39micons){grid[3
+3m-[39mcolumn[33m:[3
+9mmain}[33m#[39mprodu
+ct [33m.[39micons{fle
+x[33m-[39mdirection[
+33m:[39mrow[33m;[39m
+grid[33m-[39mcolumn[
+33m:[39mfullbleed[33m
+;[39malign[33m-[39mi
+tems[33m:[39mcenter[
+33m;[39mgap[33m:[39m
+[35m.5[39mrem[33m;[
+39mheight[33m:[39mmax
+([35m24[39mem[33m,[
+39m[35m40[39mvb)[33m
+;[39mdisplay[33m:[39
+mflex[33m;[39moverflo
+w[33m-[39mx[33m:[39
+mclip}[33m#[39mproduc
+t [33m.[39micons [33
+m.[39micon{aspect[33m
+-[39mratio[33m:[39m
+[35m1[39m[33m;[39mbo
+rder[33m:[39m[35m1[
+39mpx solid [36mvar[3
+9m([33m--[39mtheme[3
+3m-[39moutline[33m-[
+39mvariant)[33m;[39m
+[33m-[39mwebkit[33m-
+[39mbackdrop[33m-[39m
+filter[33m:[39mblur(
+[35m5[39mpx)[33m;[39
+mbackdrop[33m-[39mfil
+ter[33m:[39mblur([35
+m5[39mpx)[33m;[39mba
+ckground[33m:[39m[33
+m#[39mb7bfd917[33m;[
+39mborder[33m-[39mrad
+ius[33m:[39m[35m50[
+39m[33m%[39m[33m;[3
+9mflex[33m:[39m[35m0
+[39m [35m0[39m clamp
+([35m4[39mrem[33m,[
+39m[35m10[39mvw[33m,
+[39m[35m6[39mrem)[3
+3m;[39mplace[33m-[39
+mcontent[33m:[39mcent
+er[33m;[39mdisplay[3
+3m:[39mgrid}[33m#[39
+mproduct 
+[33m.[39micons 
+[33m.[39micon span{fo
+nt[33m-[39msize[33m:
+[39m[35m2[39mem[33m
+![39mimportant}[33m#
+[39mfeatures{grid[33m-
+[39mtemplate[33m-[39
+mcolumns[33m:[39mrepe
+at([35m2[39m[33m,[3
+9m[35m1[39mfr)[33m;
+[39mgrid[33m-[39mauto
+[33m-[39mrows[33m:[
+39mauto[33m;[39malign
+[33m-[39mitems[33m:
+[39mstretch[33m;[39mg
+ap[33m:[39m[35m2[39
+mrem[33m;[39mmargin[
+33m-[39mtop[33m:[39m
+[35m2[39mem[33m;[39
+mdisplay[33m:[39mgrid
+}[33m#[39mfeatures [
+33m.[39mfeature{border
+[33m:[39m[35m1[39mp
+x solid [36mvar[39m(
+[33m--[39mtheme[33m-
+[39moutline[33m-[39mv
+ariant)[33m;[39mbackg
+round[33m:[39m[33m#
+[39m[35m18191[39md[3
+3m;[39mborder[33m-[3
+9mradius[33m:[39m[35
+m2[39mem[33m;[39mhei
+ght[33m:[39m[35m100
+[39m[33m%[39m[33m;[
+39mposition[33m:[39mr
+elative[33m;[39moverf
+low[33m:[39mhidden[3
+3m;[39mbox[33m-[39ms
+hadow[33m:[39m[35m0
+[39m [35m40[39mpx 
+[35m100[39mpx [33m-
+[39m[35m20[39mpx [33
+m#[39m[35m00000080[3
+9m}[33m#[39mfeatures 
+[33m.[39mfeature [33
+m.[39meditor[33m-[39
+mheader{border[33m-[3
+9mbottom[33m:[39m[35
+m1[39mpx solid [36mva
+r[39m([33m--[39mthem
+e[33m-[39moutline[33
+m-[39mvariant)[33m;[
+39mbackground[33m:[39
+m[33m#[39m[35m121317
+[39m[33m;[39mpadding
+[33m:[39m[35m1.5[39
+mrem}[33m@[39mmedia (
+max[33m-[39mwidth[33
+m:[39m[35m930[39mpx)
+{[33m#[39mfeatures{gr
+id[33m-[39mtemplate[
+33m-[39mcolumns[33m:
+[39m[35m1[39mfr}}}[3
+3m@[39mlayer developer
+s{[33m#[39mdevelopers
+{border[33m-[39mtop[
+33m:[39m[35m1[39mpx 
+solid [36mvar[39m([3
+3m--[39mtheme[33m-[3
+9moutline[33m-[39mvar
+iant)[33m;[39mgrid[3
+3m-[39mtemplate[33m-
+[39mcolumns[33m:[39ms
+ubgrid[33m;[39mwidth
+[33m:[39m[35m100[39m
+[33m%[39m[33m;[39mm
+argin[33m-[39mtop[33
+m:[39m[35m2[39mem[3
+3m;[39mpadding[33m-[
+39mtop[33m:[39m[35m2
+[39mem[33m;[39mdispl
+ay[33m:[39mgrid}[33m
+#[39mdevelopers[33m>
+[39m[33m:[39mnot([33
+m.[39mcarousel){grid[
+33m-[39mcolumn[33m:[
+39mmain}[33m#[39mdeve
+lopers [33m.[39mintro
+{color[33m:[39m[36mv
+ar[39m([33m--[39mthe
+me[33m-[39msurface[3
+3m-[39mon[33m-[39msu
+rface[33m-[39mvariant
+)[33m;[39mpadding[33
+m:[39m[35m.5[39mrem 
+[35m0[39m[33m;[39mf
+ont[33m-[39msize[33m
+:[39m[35m1.1[39mem[
+33m;[39mfont[33m-[39
+mweight[33m:[39m[35m
+320[39m[33m;[39mline
+[33m-[39mheight[33m:
+[39m[35m1.2[39m}[33
+m@[39mmedia (min[33m-
+[39mwidth[33m:[39m[
+35m930[39mpx){[33m#[
+39mdevelopers [33m.[3
+9mintro{width[33m:[39
+mcalc([35m30[39mvw 
+[33m-[39m [35m1.5[3
+9mrem)[33m;[39mmargin
+[33m-[39mleft[33m:[
+39mauto}}[33m#[39mdev
+elopers [33m.[39mcaro
+usel{grid[33m-[39mcol
+umn[33m:[39mfullbleed
+[33m;[39mgap[33m:[3
+9m[35m2[39mrem[33m;
+[39mwidth[33m:[39m[3
+5m100[39m[33m%[39m[
+33m;[39mpadding[33m-
+[39minline[33m:[39m[
+35m3[39mrem[33m;[39m
+display[33m:[39mflex
+[33m;[39moverflow[33m
+-[39mx[33m:[39mscrol
+l}[33m#[39mdevelopers
+ [33m.[39mcarousel [
+33m.[39mdeveloper{flex
+[33m:[39m[35m0[39m 
+[35m0[39m [35m100[3
+9m[33m%[39m[33m;[39
+moverflow[33m:[39mcli
+p}[33m@[39mmedia (min
+[33m-[39mwidth[33m:
+[39m[35m930[39mpx){[
+33m#[39mdevelopers 
+[33m.[39mcarousel [3
+3m.[39mdeveloper{flex
+[33m-[39mbasis[33m:[
+39m[35m60[39mvi}}[33
+m#[39mdevelopers 
+[33m.[39mcarousel 
+[33m.[39mdeveloper fi
+gure{place[33m-[39mit
+ems[33m:[39mcenter[3
+3m;[39mdisplay[33m:[
+39mgrid}[33m#[39mdeve
+lopers 
+[33m.[39mcarousel 
+[33m.[39mdeveloper fi
+gure[33m>[39m[33m*[
+39m{grid[33m-[39marea
+[33m:[39m[35m1[39m
+[33m/[39m[35m1[39m}
+[33m#[39mdevelopers 
+[33m.[39mcarousel 
+[33m.[39mdeveloper 
+figure figcaption{color
+[33m:[39m[33m#[39mf
+ff[33m;[39mfont[33m-
+[39msize[33m:[39m[3
+5m2[39mem}[33m#[39md
+evelopers 
+[33m.[39mcarousel 
+[33m.[39mdeveloper im
+g{border[33m-[39mradi
+us[33m:[39m[35m2[39
+mem}[33m#[39mdevelope
+rs [33m.[39mcarousel 
+[33m.[39mdeveloper h3
+{margin[33m-[39mblock
+[33m-[39mend[33m:[3
+9m[35m.5[39mrem[33m;
+[39mfont[33m-[39msiz
+e[33m:[39m[35m1.25[
+39mem[33m;[39mfont[3
+3m-[39mweight[33m:[3
+9m[35m350[39m[33m;[
+39mline[33m-[39mheigh
+t[33m:[39m[35m1.1[3
+9m}[33m#[39mdeveloper
+s [33m.[39mcarousel 
+[33m.[39mdeveloper p{
+text[33m-[39mwrap[33
+m:[39mpretty[33m;[39
+mwidth[33m:[39m[35m4
+0[39m[33m%[39m[33m;
+[39mcolor[33m:[39m[
+36mvar[39m([33m--[39
+mtheme[33m-[39msurfac
+e[33m-[39mon[33m-[3
+9msurface[33m-[39mvar
+iant)[33m;[39mletter
+[33m-[39mspacing[33m:
+[39m[35m.05[39mrem[
+33m;[39mfont[33m-[39
+mweight[33m:[39m[35m
+300[39m}[33m#[39mdev
+elopers 
+[33m.[39mcarousel 
+[33m.[39mdeveloper a{
+color[33m:[39m[36mva
+r[39m([33m--[39mthem
+e[33m-[39msurface[33
+m-[39mon[33m-[39msur
+face[33m-[39mvariant)
+[33m;[39mflex[33m-[
+39mdirection[33m:[39m
+row[33m;[39malign[33
+m-[39mitems[33m:[39m
+center[33m;[39mgap[3
+3m:[39m[35m.25[39mem
+[33m;[39mfont[33m-[
+39mweight[33m:[39m[3
+5m300[39m[33m;[39mte
+xt[33m-[39mdecoration
+[33m:[39mnone[33m;[
+39mtransition[33m:[39
+mgap [35m.15[39ms eas
+e[33m-[39m[36min[39
+m[33m;[39mdisplay[33
+m:[39mflex}[33m#[39m
+developers 
+[33m.[39mcarousel 
+[33m.[39mdeveloper a
+[33m:[39mhover[33m,[
+39m[33m#[39mdeveloper
+s [33m.[39mcarousel 
+[33m.[39mdeveloper a
+[33m:[39mfocus[33m-[
+39mvisible{gap[33m:[3
+9m[35m.5[39mem}[33m#
+[39mdevelopers 
+[33m.[39mcarousel 
+[33m.[39mdeveloper a
+[33m:[39mafter{letter
+[33m-[39mspacing[33m:
+[39mnormal[33m;[39mt
+ext[33m-[39mtransform
+[33m:[39mnone[33m;[
+39mwhite[33m-[39mspac
+e[33m:[39mnowrap[33m
+;[39mword[33m-[39mwr
+ap[33m:[39mnormal[33
+m;[39m[33m-[39mwebki
+t[33m-[39mfont[33m-
+[39mfeature[33m-[39ms
+ettings[33m:[39m[32m
+"liga"[39m[33m;[39m
+[33m-[39mwebkit[33m-
+[39mfont[33m-[39msmoo
+thing[33m:[39mantiali
+ased[33m;[39mcontent
+[33m:[39m[32m"∩æ¬"[3
+9m[33m;[39mdirection
+[33m:[39mltr[33m;[39
+mfont[33m-[39mfamily
+[33m:[39m[33mMaterial
+[39m 
+[33mSymbols[39m [33m
+Outlined[39m[33m;[39
+mfont[33m-[39msize[3
+3m:[39m[35m24[39mpx
+[33m;[39mfont[33m-[3
+9mstyle[33m:[39mnorma
+l[33m;[39mfont[33m-
+[39mweight[33m:[39m[
+35m400[39m[33m;[39ml
+ine[33m-[39mheight[3
+3m:[39m[35m1[39m[33
+m;[39mdisplay[33m:[3
+9minline[33m-[39mbloc
+k}}[33m@[39mlayer who
+{[33m#[39mwho{text[3
+3m-[39malign[33m:[39
+mcenter[33m;[39mflex
+[33m-[39mdirection[33
+m:[39mcolumn[33m;[39
+malign[33m-[39mitems
+[33m:[39mcenter[33m;
+[39mdisplay[33m:[39mf
+lex}[33m@[39mmedia (m
+in[33m-[39mwidth[33m
+:[39m[35m930[39mpx){
+[33m#[39mwho{flex[33
+m-[39mdirection[33m:
+[39mrow[33m;[39mjusti
+fy[33m-[39mcontent[3
+3m:[39mspace[33m-[39
+maround}}[33m#[39mwho
+[33m>[39mdiv{place[3
+3m-[39mcontent[33m:[
+39mcenter[33m;[39mgap
+[33m:[39m[35m1[39me
+m[33m;[39mheight[33m
+:[39m[35m40[39mvh[3
+3m;[39mdisplay[33m:[
+39mgrid}[33m@[39mmedi
+a (min[33m-[39mwidth
+[33m:[39m[35m930[39m
+px){[33m#[39mwho[33m
+>[39mdiv{height[33m:
+[39m[35m80[39mvh}}[3
+3m#[39mwho h3{font[33
+m-[39msize[33m:[39m
+[35m1.75[39mem[33m;[
+39mfont[33m-[39mweigh
+t[33m:[39m[35m400[3
+9m[33m;[39mline[33m-
+[39mheight[33m:[39m
+[35m1.1[39m}[33m@[39
+mmedia (min[33m-[39mw
+idth[33m:[39m[35m930
+[39mpx){[33m#[39mwho
+ h3{font[33m-[39msize
+[33m:[39m[35m2.5[39
+mem}}[33m#[39mwho h3 
+span{color[33m:[39m[
+36mvar[39m([33m--[39
+mtheme[33m-[39msurfac
+e[33m-[39mon[33m-[3
+9msurface[33m-[39mvar
+iant)}[33m#[39mwho bu
+tton{justify[33m-[39m
+self[33m:[39mcenter[
+33m;[39mfont[33m-[39
+msize[33m:[39m[35m1.
+15[39mem}}[33m@[39ml
+ayer beforeyougo{[33m#
+[39mbeforeyougo{grid[
+33m-[39mtemplate[33m-
+[39mcolumns[33m:[39m
+subgrid[33m;[39mheigh
+t[33m:[39mmin[33m-[
+39mcontent[33m;[39mdi
+splay[33m:[39mgrid}[
+33m#[39mbeforeyougo[3
+3m>[39m[33m*[39m{gri
+d[33m-[39mcolumn[33m
+:[39mmain}[33m#[39mb
+eforeyougo [33m.[39mc
+ard{aspect[33m-[39mra
+tio[33m:[39m[35m4[3
+9m[33m/[39m[35m3[39
+m[33m;[39malign[33m-
+[39mcontent[33m:[39m
+center[33m;[39mgap[3
+3m:[39m[35m1[39mrem
+[33m;[39mwidth[33m:[
+39m[35m100[39m[33m%
+[39m[33m;[39mheight[
+33m:[39mauto[33m;[39
+mmax[33m-[39mheight[
+33m:[39m[35m80[39mvh
+[33m;[39mpadding[33m
+:[39m[35m4[39mem[33
+m;[39mdisplay[33m:[3
+9mgrid}[33m#[39mbefor
+eyougo p{text[33m-[39
+mwrap[33m:[39mpretty
+[33m;[39mmax[33m-[39
+mwidth[33m:[39m[35m2
+0[39mch[33m;[39mmarg
+in[33m:[39m[35m0[39
+m[33m;[39mfont[33m-
+[39msize[33m:[39m[35
+m2[39mem}[33m@[39mme
+dia not all and (max[3
+3m-[39mwidth[33m:[39
+m[35m930[39mpx){[33m
+#[39mbeforeyougo p{fon
+t[33m-[39msize[33m:
+[39m[35m3[39mem}}[33
+m#[39mbeforeyougo [33
+m.[39mbuttons{flex[33
+m-[39mdirection[33m:
+[39mcolumn[33m;[39mal
+ign[33m-[39mitems[33
+m:[39mstart[33m;[39m
+gap[33m:[39m[35m.25
+[39mrem[33m;[39mfont
+[33m-[39msize[33m:[3
+9m[35m1.2[39mem[33m;
+[39mdisplay[33m:[39m
+flex}[33m@[39mmedia 
+not all and (max[33m-
+[39mwidth[33m:[39m[3
+5m930[39mpx){[33m#[3
+9mbeforeyougo [33m.[3
+9mbuttons{flex[33m-[3
+9mdirection[33m:[39mr
+ow}}}}[33m@[39mlayer 
+moderncss{[33m@[39mla
+yer misc{[33m:[39mroo
+t{overscroll[33m-[39m
+behavior[33m-[39my[3
+3m:[39mcontain}}[33m@
+[39mlayer layout{[33m
+@[39mlayer ring[33m-
+[39mparticles{[33m@[3
+9msupports (background
+[33m:[39mpaint(somethi
+ng)){[33m@[39mlayer p
+articles{[33m#[39mwel
+come{[33m--[39mring[
+33m-[39mradius[33m:[
+39m[35m100[39m[33m;
+[39m[33m--[39mring[3
+3m-[39mthickness[33m:
+[39m[35m600[39m[33m
+;[39m[33m--[39mparti
+cle[33m-[39mcount[33
+m:[39m[35m80[39m[33
+m;[39m[33m--[39mpart
+icle[33m-[39mrows[33
+m:[39m[35m25[39m[33
+m;[39m[33m--[39mpart
+icle[33m-[39msize[33
+m:[39m[35m2[39m[33m
+;[39m[33m--[39mparti
+cle[33m-[39mcolor[33
+m:[39mnavy[33m;[39m
+[33m--[39mparticle[33
+m-[39mmin[33m-[39mal
+pha[33m:[39m[35m.1[
+39m[33m;[39m[33m--[
+39mparticle[33m-[39mm
+ax[33m-[39malpha[33m
+:[39m[35m1[39m[33m;
+[39m[33m--[39mseed[
+33m:[39m[35m200[39m
+[33m;[39mbackground[3
+3m-[39mimage[33m:[39
+mpaint(ring[33m-[39mp
+articles)}}[33m@[39ml
+ayer animation{[33m@[
+39mproperty [33m--[39
+manimation[33m-[39mti
+ck{syntax[33m:[39m[3
+2m"<number>"[39m[33m;
+[39minherits[33m:[39
+m[36mfalse[39m[33m;
+[39minitial[33m-[39mv
+alue[33m:[39m[35m0[
+39m}[33m@[39mproperty
+ [33m--[39mring[33m-
+[39mradius{syntax[33m
+:[39m[32m"<number>|au
+to"[39m[33m;[39minhe
+rits[33m:[39m[36mfal
+se[39m[33m;[39miniti
+al[33m-[39mvalue[33m
+:[39mauto}[33m@[39mk
+eyframes ripple{[35m0
+[39m[33m%[39m{[33m--
+[39manimation[33m-[3
+9mtick[33m:[39m[35m0
+[39m}to{[33m--[39man
+imation[33m-[39mtick
+[33m:[39m[35m1[39m}}
+[33m@[39mkeyframes ri
+ng{[35m0[39m[33m%[3
+9m{[33m--[39mring[33
+m-[39mradius[33m:[39
+m[35m150[39m}to{[33m
+--[39mring[33m-[39mr
+adius[33m:[39m[35m25
+0[39m}}[33m#[39mwelc
+ome{animation[33m:[39
+m[35m6[39ms linear 
+infinite ripple[33m,[
+39m[35m6[39ms ease[3
+3m-[39m[36min[39m[3
+3m-[39mout infinite 
+alternate 
+ring}}[33m@[39mlayer 
+follow[33m-[39mmouse{
+[33m@[39mproperty [3
+3m--[39mring[33m-[39
+mx{syntax[33m:[39m[3
+2m"<number>"[39m[33m;
+[39minherits[33m:[39
+m[36mfalse[39m[33m;
+[39minitial[33m-[39mv
+alue[33m:[39m[35m50
+[39m}[33m@[39mpropert
+y [33m--[39mring[33m
+-[39my{syntax[33m:[3
+9m[32m"<number>"[39m
+[33m;[39minherits[33m
+:[39m[36mfalse[39m[
+33m;[39minitial[33m-
+[39mvalue[33m:[39m[3
+5m50[39m}[33m@[39mpr
+operty [33m--[39mring
+[33m-[39minteractive{
+syntax[33m:[39m[32m"
+<number>"[39m[33m;[3
+9minherits[33m:[39m[
+36mfalse[39m[33m;[39
+minitial[33m-[39mvalu
+e[33m:[39m[35m0[39m
+}[33m#[39mwelcome{tra
+nsition[33m:[39m[33m
+--[39mring[33m-[39mx
+ [35m3[39ms[33m,[39
+m[33m--[39mring[33m-
+[39my [35m3[39ms}}}}
+[33m@[39mlayer speckl
+ed[33m-[39mbackground
+s{[33m@[39msupports (
+background[33m:[39mpa
+int(something)){[33m#
+[39mbeforeyougo [33m.
+[39mcard[33m,[39m[33
+m#[39mwho[33m>[39mdi
+v{[33m--[39mextra[33
+m-[39mconfettiNumber[
+33m:[39m[35m250[39m
+[33m;[39m[33m--[39me
+xtra[33m-[39mconfetti
+LengthVariance[33m:[3
+9m[35m1[39m[33m;[39
+m[33m--[39mextra[33m
+-[39mconfettiWeightVar
+iance[33m:[39m[35m1
+[39m[33m;[39mbackgrou
+nd[33m-[39mimage[33m
+:[39mpaint(extra[33m-
+[39mconfetti)}}}[33m@
+[39mlayer product[33m
+;[39m}[33m@[39mlayer
+ components{[33m@[39m
+layer button{[33m@[39
+mscope([33m.[39mdark)
+{button{color[33m:[39
+m[36mvar[39m([33m--
+[39mtheme[33m-[39msur
+face[33m-[39mon[33m-
+[39msurface)[33m;[39
+mbackground[33m:[39m
+[36mvar[39m([33m--[3
+9mtheme[33m-[39mprima
+ry[33m-[39mon[33m-[
+39mprimary)[33m;[39mb
+order[33m:[39m[35m1
+[39mpx solid [36mvar[
+39m([33m--[39mtheme[
+33m-[39moutline[33m-
+[39mvariant)}button[33
+m:[39mhover[33m,[39m
+button[33m:[39mfocus
+[33m-[39mvisible{backg
+round[33m:[39m[36mva
+r[39m([33m--[39mthem
+e[33m-[39mbutton[33m
+-[39msecondary[33m-[
+39mhover)}button[33m.
+[39msecondary{color[33
+m:[39m[36mvar[39m([
+33m--[39mtheme[33m-[
+39msurface[33m-[39msu
+rface)[33m;[39mbackgr
+ound[33m:[39m[36mvar
+[39m([33m--[39mtheme
+[33m-[39mnav[33m-[3
+9mbutton[33m-[39mhove
+r)}button[33m.[39msec
+ondary[33m:[39mhover
+[33m,[39mbutton[33m.
+[39msecondary[33m:[39
+mfocus[33m-[39mvisibl
+e{background[33m:[39m
+[36mvar[39m([33m--[
+39mtheme[33m-[39mbutt
+on[33m-[39msecondary
+[33m-[39minverse[33m-
+[39mhover)}}}[33m@[3
+9mlayer navbar{[33m@[
+39mlayer mobile{[33m@
+[39mmedia not all and (
+min[33m-[39mwidth[33
+m:[39m[35m930[39mpx)
+{header{anchor[33m-[3
+9mname[33m:[39m[33m-
+-[39mheader}header nav
+{position[33m-[39manc
+hor[33m:[39m[33m--[
+39mheader[33m;[39mpos
+ition[33m-[39marea[3
+3m:[39mbottom[33m;[3
+9mplace[33m-[39mself
+[33m:[39mstretch stret
+ch[33m;[39mtransition
+[33m:[39mopacity 
+[35m.15[39ms ease[33
+m-[39m[36min[39m[33
+m;[39mposition[33m:[
+39mfixed[33m;[39minse
+t[33m:[39m[35m0[39m
+ auto auto}[33m@[39ms
+tarting[33m-[39mstyle
+{header nav{opacity[33
+m:[39m[35m0[39m}}}}
+[33m@[39mmedia not 
+all and (min[33m-[39m
+width[33m:[39m[35m93
+0[39mpx){header[33m:
+[39mhas([33m.[39mmenu
+[33m-[39mcheckbox[33
+m:[39mchecked)[33m,[
+39mheader[33m:[39mhas
+([33m.[39mmenu[33m-
+[39mcheckbox[33m:[39m
+checked) nav{overscroll
+[33m-[39mbehavior[33
+m:[39mcontain[33m;[3
+9moverflow[33m:[39mau
+to}}[33m@[39mlayer hi
+dey[33m-[39mbar{html{
+container[33m-[39mtyp
+e[33m:[39mscroll[33m
+-[39mstate}[33m.[39m
+header[33m-[39mwrappe
+r[33m:[39mnot([33m.
+[39mheader[33m-[39mwr
+apper[33m:[39mhas([3
+3m.[39mmenu[33m-[39m
+checkbox[33m:[39mchec
+ked)){transition[33m:
+[39mtranslate [35m.25
+[39ms[33m;[39mtransla
+te[33m:[39m[35m0[39
+m}[33m@[39mcontainer 
+scroll[33m-[39mstate(
+scrolled[33m:[39mbott
+om){[33m.[39mheader[
+33m-[39mwrapper[33m:
+[39mnot([33m.[39mhead
+er[33m-[39mwrapper[3
+3m:[39mhas([33m.[39m
+menu[33m-[39mcheckbox
+[33m:[39mchecked)){tr
+anslate[33m:[39m[35m
+0[39m [33m-[39m[35m
+100[39m[33m%[39m}}}}
+[33m@[39mlayer carous
+el{[33m@[39mlayer scr
+oll[33m-[39msnapping{
+[33m@[39mlayer base[
+33m-[39msetup{[33m@[
+39msupports (scroll[33
+m-[39mpadding[33m-[3
+9minline[33m:[39m[35
+m3[39mrem){[33m.[39m
+carousel{scroll[33m-[
+39msnap[33m-[39mtype
+[33m:[39mx mandatory[
+33m;[39mscroll[33m-[
+39mpadding[33m-[39min
+line[33m:[39m[35m3[
+39mrem}[33m.[39mcarou
+sel[33m>[39m[33m*[3
+9m{scroll[33m-[39msna
+p[33m-[39malign[33m:
+[39mstart}[33m@[39mm
+edia (min[33m-[39mwid
+th[33m:[39m[35m930[
+39mpx){[33m.[39mcarou
+sel{padding[33m-[39mi
+nline[33m:[39m[35m3
+[39mrem 
+calc([35m40[39mvi 
+[33m-[39m [35m3[39m
+rem)}}}}[33m@[39mlaye
+r snapped[33m-[39meff
+ects{[33m.[39mcarouse
+l[33m>[39m[33m*[39m
+{container[33m-[39mty
+pe[33m:[39mscroll[33
+m-[39mstate}[33m@[39
+msupports (container[3
+3m-[39mtype[33m:[39m
+scroll[33m-[39mstate)
+{[33m.[39mcarousel[3
+3m>[39m[33m*[39m[33
+m>[39mfigure{opacity[
+33m:[39m[35m.25[39m
+[33m;[39mtransition[3
+3m:[39mopacity [35m.5
+[39ms}[33m@[39mconta
+iner scroll[33m-[39ms
+tate(snapped[33m:[39m
+x){[33m.[39mcarousel
+[33m>[39m[33m*[39m[
+33m>[39mfigure{opacity
+[33m:[39m[35m1[39m}
+}[33m.[39mcarousel[3
+3m>[39m[33m*[39m[33
+m>[39m[33m:[39mnot(f
+igure){opacity[33m:[3
+9m[35m0[39m[33m;[39
+mtranslate[33m:[39m[
+35m0[39m 
+calc([35m.5[39mrem 
+[33m*[39m (sibling[3
+3m-[39mindex() 
+[33m-[39m 
+[35m1[39m)) [35m0[3
+9m[33m;[39mtransition
+[33m:[39mopacity [35
+m.5[39ms[33m,[39mtra
+nslate [35m.5[39ms}[
+33m@[39mcontainer scro
+ll[33m-[39mstate(snap
+ped[33m:[39mx){[33m.
+[39mcarousel[33m>[39
+m[33m*[39m[33m>[39m
+[33m:[39mnot(figure){
+opacity[33m:[39m[35m
+1[39m[33m;[39mtransi
+tion[33m-[39mdelay[3
+3m:[39m[35m.2[39ms[
+33m;[39mtranslate[33m
+:[39m[35m0[39m}}}}}
+[33m@[39mlayer nicetie
+s{[33m.[39mcarousel{s
+crollbar[33m-[39mwidt
+h[33m:[39mnone[33m;
+[39moverscroll[33m-[3
+9mbehavior[33m-[39mx
+[33m:[39mcontain}}[33
+m@[39mlayer scroll[33
+m-[39mbuttons{[33m.[
+39mcarousel{scroll[33m
+-[39mbehavior[33m:[3
+9msmooth[33m;[39manch
+or[33m-[39mname[33m:
+[39m[33m--[39mcarous
+el[33m;[39mposition[
+33m:[39mrelative}[33m
+.[39mcarousel[33m:[3
+9m[33m:[39mscroll[33
+m-[39mbutton([33m*[3
+9m){position[33m-[39m
+anchor[33m:[39m[33m-
+-[39mcarousel[33m;[3
+9mposition[33m-[39mvi
+sibility[33m:[39malwa
+ys[33m;[39mcolor[33m
+:[39m[36mvar[39m([3
+3m--[39mtheme[33m-[3
+9msurface[33m-[39mon
+[33m-[39msurface)[33m
+;[39mbackground[33m:
+[39m[36mvar[39m([33m
+--[39mtheme[33m-[39m
+tonal[33m-[39mtonal)
+[33m;[39mcursor[33m:
+[39mpointer[33m;[39mb
+order[33m:[39mnone[3
+3m;[39mborder[33m-[3
+9mradius[33m:[39m[35
+m999[39mpx[33m;[39mj
+ustify[33m-[39mconten
+t[33m:[39mcenter[33m
+;[39malign[33m-[39mi
+tems[33m:[39mcenter[
+33m;[39mblock[33m-[3
+9msize[33m:[39m[35m2
+[39mem[33m;[39minlin
+e[33m-[39msize[33m:
+[39m[35m2.5[39mem[33
+m;[39mfont[33m-[39mf
+amily[33m:[39m[33mMa
+terial[39m 
+[33mSymbols[39m [33m
+Outlined[39m[33m;[39
+mfont[33m-[39msize[3
+3m:[39m[35m1.3[39mem
+[33m;[39mtransition[
+33m:[39mopacity [35m.
+25[39ms[33m;[39mdisp
+lay[33m:[39mflex[33m
+;[39mposition[33m:[3
+9mfixed}[33m.[39mcaro
+usel[33m:[39m[33m:[
+39mscroll[33m-[39mbut
+ton([33m*[39m)[33m:
+[39mhover{background[3
+3m:[39m[33m#[39meff0
+f3}[33m.[39mcarousel
+[33m:[39m[33m:[39msc
+roll[33m-[39mbutton(
+[33m*[39m)[33m:[39md
+isabled{cursor[33m:[3
+9mnot[33m-[39mallowed
+[33m;[39mopacity[33m
+:[39m[35m.25[39m}[3
+3m.[39mcarousel[33m:
+[39m[33m:[39mscroll[
+33m-[39mbutton(left){c
+ontent[33m:[39m[32m"
+arrow_back"[39m 
+[33m/[39m [32m"Previ
+ous"[39m[33m;[39mtra
+nslate[33m:[39m[33m-
+[39m[35m50[39m[33m%
+[39m}[33m.[39mcarous
+el[33m:[39m[33m:[39
+mscroll[33m-[39mbutto
+n(right){content[33m:
+[39m[32m"arrow_forward
+"[39m [33m/[39m [32
+m"Next"[39m[33m;[39m
+translate[33m:[39m[3
+5m50[39m[33m%[39m}[
+33m@[39mmedia not all 
+and (min[33m-[39mwidt
+h[33m:[39m[35m930[3
+9mpx){[33m.[39mcarous
+el[33m:[39m[33m:[39
+mscroll[33m-[39mbutto
+n(left){position[33m-
+[39marea[33m:[39mcent
+er center[33m;[39mali
+gn[33m-[39mself[33m:
+[39mend}[33m.[39mcar
+ousel[33m:[39m[33m:
+[39mscroll[33m-[39mbu
+tton(right){position[3
+3m-[39marea[33m:[39m
+center center[33m;[39
+malign[33m-[39mself[
+33m:[39mend}}[33m@[3
+9mmedia (min[33m-[39m
+width[33m:[39m[35m93
+0[39mpx){[33m.[39mca
+rousel[33m:[39m[33m:
+[39mscroll[33m-[39mb
+utton(left){position[3
+3m-[39marea[33m:[39m
+center center[33m;[39
+mplace[33m-[39mself[
+33m:[39mstart[33m;[3
+9mtop[33m:[39mcalc([
+35m33.75[39mvi 
+[33m+[39m [35m.5625
+[39mem)[33m;[39mleft
+[33m:[39mcalc([35m60
+[39mvi [33m-[39m [35
+m1[39mem)}[33m.[39mc
+arousel[33m:[39m[33m
+:[39mscroll[33m-[39m
+button(right){position
+[33m-[39marea[33m:[3
+9mcenter center[33m;[
+39mplace[33m-[39mself
+[33m:[39mstart[33m;
+[39mtop[33m:[39mcalc(
+[35m33.75[39mvi 
+[33m+[39m [35m.5625
+[39mem)[33m;[39mleft
+[33m:[39mcalc([35m60
+[39mvi [33m-[39m [35
+m1[39mem)}}}}}[33m@[
+39mlayer animations{[3
+3m@[39mlayer revealing
+[33m-[39mwelcome[33m
+-[39mitems{[33m#[39m
+welcome svg[33m,[39m
+[33m#[39mwelcome [33m
+.[39mcta{transition[3
+3m:[39mtranslate [35m
+.5[39ms[33m,[39mopac
+ity [35m.5[39ms}[33m
+@[39mstarting[33m-[3
+9mstyle{[33m#[39mwelc
+ome svg[33m,[39m[33m
+#[39mwelcome [33m.[3
+9mcta{opacity[33m:[39
+m[35m0[39m[33m;[39m
+translate[33m:[39m[3
+5m0[39m [35m50[39m[
+33m%[39m}}}[33m@[39m
+layer scroll[33m-[39m
+triggered[33m-[39mtyp
+ewriter[33m-[39meffec
+t{[33m@[39msupports (
+timeline[33m-[39mtrig
+ger[33m-[39mname[33m
+:[39m[33m--[39mt){[
+33m@[39mkeyframes blin
+k{[35m0[39m[33m%[39
+m{opacity[33m:[39m[3
+5m0[39m}}[33m@[39mke
+yframes text{[35m0[39
+m[33m%[39m{background
+[33m-[39msize[33m:[
+39m[35m0[39m}}[33m.
+[39mtypewriter{backgrou
+nd[33m:[39mlinear[33
+m-[39mgradient([35m90
+[39mdeg[33m,[39m [3
+6mvar[39m([33m--[39m
+typewriter[33m-[39mte
+xt[33m-[39mcolor[33m
+,[39m[36mvar[39m([3
+3m--[39mtheme[33m-[3
+9msurface[33m-[39mon
+[33m-[39msurface)) 
+[35m0[39m 
+[35m0[39m) 
+[35m0[39m 
+[33m/[39m calc([36mv
+ar[39m([33m--[39mn[
+33m,[39m[35m100[39m)
+ [33m*[39m 
+[35m1[39mch) 
+no[33m-[39mrepeat tra
+nsparent[33m;[39mcolo
+r[33m:[39m[33m#[39m
+[35m0000[39m[33m;[3
+9m[33m-[39mwebkit[33
+m-[39mbackground[33m-
+[39mclip[33m:[39mtex
+t[33m;[39manimation[
+33m:[39m[35m2[39ms e
+ase[33m-[39m[36min[
+39m both text}[33m.[3
+9mtypewriter[33m:[39m
+after{content[33m:[39
+m[32m"|"[39m[33m;[3
+9m[33m--[39mhdr[33m-
+[39mgradient[33m:[39
+mlinear[33m-[39mgradi
+ent([36min[39m 
+oklch[33m,[39m oklch(
+[35m80[39m[33m%[39m
+ [35m.3[39m [35m34[
+39m)[33m,[39m oklch(
+[35m90[39m[33m%[39m 
+[35m.3[39m [35m200[
+39m))[33m;[39m[33m--
+[39msdr[33m-[39mgrad
+ient[33m:[39mlinear[
+33m-[39mgradient([33m
+#[39mff4700[33m,[39m
+ [33m#[39m[35m0[39m
+ff)[33m;[39mbackgroun
+d[33m:[39m[36mvar[3
+9m([33m--[39mhdr[33m
+-[39mgradient)[33m;[
+39mcolor[33m:[39m[33
+m#[39m[35m0000[39m[
+33m;[39m[33m-[39mweb
+kit[33m-[39mbackgroun
+d[33m-[39mclip[33m:
+[39mtext[33m;[39mback
+ground[33m-[39mclip[
+33m:[39mtext[33m;[39
+manimation[33m:[39m[
+35m.2[39ms 
+[35m1.4[39ms 
+infinite alternate 
+both blink}[33m#[39mp
+roduct [33m:[39mhas(
+[33m>[39m[33m.[39mty
+pewriter){timeline[33m
+-[39mtrigger[33m:[39
+m[33m--[39mt view() 
+cover [35m30[39m[33m
+%[39m cover [35m1000
+[39m[33m%[39m[33m;[
+39mtrigger[33m-[39msc
+ope[33m:[39m[33m--[
+39mt}[33m#[39mproduct
+ [33m:[39mhas([33m>
+[39m[33m.[39mtypewrit
+er) [33m.[39mtypewrit
+er{animation[33m-[39m
+trigger[33m:[39m[33m
+--[39mt play[33m-[39
+monce}[33m#[39mproduc
+t [33m:[39mhas([33m>
+[39m[33m.[39mtypewri
+ter) [33m.[39mtypewri
+ter[33m:[39mafter{ani
+mation[33m-[39mtrigge
+r[33m:[39m[33m--[39
+mt play[33m-[39monce
+[33m;[39manimation[33
+m-[39mdelay[33m:[39m
+[35m1.6[39ms}[33m.[
+39mcarousel[33m>[39m
+[33m*[39m{timeline[33
+m-[39mtrigger[33m:[3
+9m[33m--[39mt 
+view(inline) entry [35
+m90[39m[33m%[39m 
+exit [35m50[39m[33m%
+[39m[33m;[39mtrigger
+[33m-[39mscope[33m:
+[39m[33m--[39mt}[33m
+.[39mcarousel[33m>[3
+9m[33m*[39m [33m.[3
+9mtypewriter{[33m--[3
+9mtypewriter[33m-[39m
+text[33m-[39mcolor[3
+3m:[39mwhite[33m;[39
+manimation[33m-[39mtr
+igger[33m:[39m[33m--
+[39mt play[33m-[39mf
+orwards reset[33m;[39
+manimation[33m-[39mdu
+ration[33m:[39m[35m1
+.5[39ms}[33m.[39mcar
+ousel[33m>[39m[33m*
+[39m [33m.[39mtypewri
+ter[33m:[39mafter{ani
+mation[33m-[39mtrigge
+r[33m:[39m[33m--[39
+mt play[33m-[39mforwa
+rds reset[33m;[39mani
+mation[33m-[39mdelay
+[33m:[39m[35m.9[39ms
+}[33m#[39mbeforeyougo
+[33m>[39m[33m.[39mc
+ard{timeline[33m-[39m
+trigger[33m:[39m[33m
+--[39mt view() cover 
+[35m30[39m[33m%[39m 
+cover [35m1000[39m[3
+3m%[39m[33m;[39mtrig
+ger[33m-[39mscope[33
+m:[39m[33m--[39mt}[
+33m#[39mbeforeyougo[3
+3m>[39m[33m.[39mcard
+ [33m.[39mtypewriter{
+[33m--[39mtypewriter
+[33m-[39mtext[33m-[3
+9mcolor[33m:[39mwhite
+[33m;[39manimation[3
+3m-[39mtrigger[33m:[
+39m[33m--[39mt play[
+33m-[39monce[33m;[39
+manimation[33m-[39mdu
+ration[33m:[39m[35m2
+[39ms}[33m#[39mbefor
+eyougo[33m>[39m[33m.
+[39mcard [33m.[39mty
+pewriter[33m:[39mafte
+r{animation[33m-[39mt
+rigger[33m:[39m[33m-
+-[39mt play[33m-[39m
+once[33m;[39manimatio
+n[33m-[39mdelay[33m:
+[39m[35m1[39ms}}}[3
+3m@[39mlayer moving[3
+3m-[39micons{[33m@[3
+9mlayer slide[33m-[39
+m[36min[39m{[33m@[3
+9mkeyframes slide[33m-
+[39m[36min[39m{[35m
+0[39m[33m%[39m{trans
+late[33m:[39m[35m100
+[39m[33m%[39m}}[33m
+#[39mproduct [33m.[3
+9micons{timeline[33m-
+[39mtrigger[33m:[39m
+[33m--[39mt view() 
+cover [35m30[39m[33m
+%[39m cover [35m1000
+[39m[33m%[39m[33m;[
+39mtrigger[33m-[39msc
+ope[33m:[39m[33m--[
+39mt[33m;[39manimatio
+n[33m-[39mtrigger[33
+m:[39m[33m--[39mt pl
+ay[33m-[39monce[33m;
+[39manimation[33m:[3
+9m[35m1[39ms both sli
+de[33m-[39m[36min[3
+9m}}[33m@[39mlayer wo
+bble{[33m@[39mkeyfram
+es wobble{[35m0[39m[
+33m%[39m{translate[33
+m:[39m[35m0[39m [35
+m75[39m[33m%[39m}to{
+translate[33m:[39m[3
+5m0[39m [33m-[39m[3
+5m75[39m[33m%[39m}}
+[33m#[39mproduct [33m
+.[39micon{animation[3
+3m:[39m[35m4[39ms 
+infinite alternate wobb
+le[33m;[39manimation
+[33m-[39mdelay[33m:[
+39mcalc(mod(sibling[33
+m-[39mindex()[33m,[3
+9m [35m5[39m) 
+[33m*[39m [33m-[39m
+[35m1[39ms)}}}[33m@
+[39mlayer product[33m-
+[39mfeatures{[33m@[3
+9msupports (timeline[3
+3m-[39mtrigger[33m-[
+39mname[33m:[39m[33m
+--[39mt){[33m@[39mke
+yframes fade[33m-[39m
+a[33m-[39mbit{[35m0
+[39m[33m%[39m{opacity
+[33m:[39m[35m.3[39m
+}to{opacity[33m:[39m
+[35m1[39m}}[33m@[39m
+keyframes fake[33m-[3
+9mclip[33m-[39mit{to{
+scale[33m:[39m[35m10
+0[39m[33m%[39m [35m
+0[39m[33m%[39m}}[33
+m@[39mkeyframes fade[
+33m-[39m[36min[39m{
+[35m0[39m[33m%[39m{o
+pacity[33m:[39m[35m0
+[39m}}[33m@[39mmedia
+ (min[33m-[39mwidth[
+33m:[39m[35m930[39mp
+x){[33m#[39mfeatures 
+[33m.[39mfeature{time
+line[33m-[39mtrigger
+[33m:[39m[33m--[39mt
+ view() entry [35m100
+[39m[33m%[39m cover 
+[35m50[39m[33m%[39m
+[33m;[39mtrigger[33m-
+[39mscope[33m:[39m[
+33m--[39mt}[33m#[39m
+features 
+[33m.[39mfeature h3{a
+nimation[33m-[39mtrig
+ger[33m:[39m[33m--[
+39mt play[33m-[39mfor
+wards play[33m-[39mba
+ckwards[33m;[39manima
+tion[33m:[39m[35m.5
+[39ms both fade[33m-[
+39ma[33m-[39mbit}[33
+m#[39mfeatures 
+[33m.[39mfeature p{po
+sition[33m:[39mrelati
+ve}[33m#[39mfeatures 
+[33m.[39mfeature p[3
+3m:[39mafter{content[
+33m:[39m[32m""[39m[
+33m;[39mtransform[33m
+-[39morigin[33m:[39m
+[35m0[39m [35m100[3
+9m[33m%[39m[33m;[39
+manimation[33m-[39mtr
+igger[33m:[39m[33m--
+[39mt play[33m-[39mf
+orwards play[33m-[39m
+backwards[33m;[39mbac
+kground[33m:[39m[33m
+#[39mfff[33m;[39mhei
+ght[33m:[39m[35m100
+[39m[33m%[39m[33m;[
+39manimation[33m:[39m
+[35m.5[39ms both fake
+[33m-[39mclip[33m-[
+39mit[33m;[39mpositio
+n[33m:[39mabsolute[3
+3m;[39mbottom[33m:[3
+9m[35m0[39m[33m;[39
+mleft[33m:[39m[35m0
+[39m[33m;[39mright[3
+3m:[39m[35m0[39m}[3
+3m#[39mfeatures 
+[33m.[39mfeature img
+[33m:[39mnot([33m.[3
+9mfeature[33m:[39mfir
+st[33m-[39mchild img)
+{animation[33m-[39mtr
+igger[33m:[39m[33m--
+[39mt play[33m-[39mf
+orwards play[33m-[39m
+backwards[33m;[39mani
+mation[33m:[39m[35m.
+5[39ms both fade[33m-
+[39m[36min[39m}}}}[
+33m@[39mlayer scroll[
+33m-[39mdriven[33m-[
+39manimations{[33m@[3
+9msupports (animation[
+33m-[39mtimeline[33m:
+[39mscroll()) and (ani
+mation[33m-[39mrange
+[33m:[39m[35m0[39m[
+33m%[39m [35m100[39m
+[33m%[39m){[33m@[39
+mkeyframes scale[33m-
+[39mup{[35m0[39m[33m
+%[39m{scale[33m:[39m
+[35m.85[39m}}[33m#[
+39mbeforeyougo [33m.[
+39mcard{animation[33m:
+[39mlinear both scale
+[33m-[39mup[33m;[39m
+animation[33m-[39mtim
+eline[33m:[39mview()
+[33m;[39manimation[33
+m-[39mrange[33m:[39m
+entry [35m50[39m[33m
+%[39m}}}}}[33m@[39ml
+ayer util{[33m.[39msr
+[33m-[39monly{clip[3
+3m:[39mrect([35m0[39
+m[33m,[39m 
+[35m0[39m[33m,[39m 
+[35m0[39m[33m,[39m 
+[35m0[39m)[33m;[39m
+white[33m-[39mspace[
+33m:[39mnowrap[33m;[
+39mborder[33m-[39mwid
+th[33m:[39m[35m0[39
+m[33m;[39mwidth[33m:
+[39m[35m1[39mpx[33m
+;[39mheight[33m:[39m
+[35m1[39mpx[33m;[39
+mmargin[33m:[39m[33m
+-[39m[35m1[39mpx[33
+m;[39mpadding[33m:[3
+9m[35m0[39m[33m;[39
+mposition[33m:[39mabs
+olute[33m;[39moverflo
+w[33m:[39mhidden}[33
+m.[39mnot[33m-[39msr
+[33m-[39monly{clip[3
+3m:[39mauto[33m;[39m
+white[33m-[39mspace[
+33m:[39mnormal[33m;[
+39mwidth[33m:[39mauto
+[33m;[39mheight[33m:
+[39mauto[33m;[39mmar
+gin[33m:[39m[35m0[3
+9m[33m;[39mpadding[3
+3m:[39m[35m0[39m[33
+m;[39mposition[33m:[
+39m[36mstatic[39m[33
+m;[39moverflow[33m:[
+39mvisible}[33m.[39mm
+aterial[33m-[39msymbo
+ls[33m-[39moutlined{l
+etter[33m-[39mspacing
+[33m:[39mnormal[33m;
+[39mtext[33m-[39mtra
+nsform[33m:[39mnone[
+33m;[39mwhite[33m-[3
+9mspace[33m:[39mnowra
+p[33m;[39mword[33m-
+[39mwrap[33m:[39mnorm
+al[33m;[39m[33m-[39
+mwebkit[33m-[39mfont
+[33m-[39mfeature[33m-
+[39msettings[33m:[39
+m[32m"liga"[39m[33m;
+[39m[33m-[39mwebkit
+[33m-[39mfont[33m-[3
+9msmoothing[33m:[39ma
+ntialiased[33m;[39mdi
+rection[33m:[39mltr[
+33m;[39mfont[33m-[39
+mfamily[33m:[39m[33m
+Material[39m [33mIcon
+s[39m[33m,[39msans[
+33m-[39mserif[33m;[3
+9mfont[33m-[39msize[
+33m:[39m[35m24[39mpx
+[33m;[39mfont[33m-[
+39mstyle[33m:[39mnorm
+al[33m;[39mfont[33m-
+[39mweight[33m:[39m
+[35m400[39m[33m;[39m
+line[33m-[39mheight[
+33m:[39m[35m1[39m[3
+3m;[39mdisplay[33m:[
+39minline[33m-[39mblo
+ck}}[33m@[39mproperty
+ [33m--[39mtw[33m-[
+39mtranslate[33m-[39m
+x{syntax[33m:[39m[32
+m"*"[39m[33m;[39minh
+erits[33m:[39m[36mfa
+lse[39m[33m;[39minit
+ial[33m-[39mvalue[33
+m:[39m[35m0[39m}[33
+m@[39mproperty [33m--
+[39mtw[33m-[39mtrans
+late[33m-[39my{syntax
+[33m:[39m[32m"*"[39
+m[33m;[39minherits[3
+3m:[39m[36mfalse[39m
+[33m;[39minitial[33m
+-[39mvalue[33m:[39m
+[35m0[39m}[33m@[39mp
+roperty [33m--[39mtw
+[33m-[39mtranslate[33
+m-[39mz{syntax[33m:[
+39m[32m"*"[39m[33m;
+[39minherits[33m:[39m
+[36mfalse[39m[33m;[
+39minitial[33m-[39mva
+lue[33m:[39m[35m0[3
+9m}[33m@[39mproperty 
+[33m--[39mtw[33m-[3
+9mspace[33m-[39my[33
+m-[39mreverse{syntax[
+33m:[39m[32m"*"[39m
+[33m;[39minherits[33m
+:[39m[36mfalse[39m[
+33m;[39minitial[33m-
+[39mvalue[33m:[39m[3
+5m0[39m}[33m@[39mpro
+perty [33m--[39mtw[3
+3m-[39mborder[33m-[3
+9mstyle{syntax[33m:[3
+9m[32m"*"[39m[33m;[
+39minherits[33m:[39m
+[36mfalse[39m[33m;[3
+9minitial[33m-[39mval
+ue[33m:[39msolid}[33
+m@[39mproperty [33m--
+[39mtw[33m-[39mleadi
+ng{syntax[33m:[39m[3
+2m"*"[39m[33m;[39min
+herits[33m:[39m[36mf
+alse[39m}[33m@[39mpr
+operty [33m--[39mtw[
+33m-[39mfont[33m-[39
+mweight{syntax[33m:[3
+9m[32m"*"[39m[33m;[
+39minherits[33m:[39m
+[36mfalse[39m}[33m@[
+39mproperty [33m--[39
+mtw[33m-[39mtracking{
+syntax[33m:[39m[32m"
+*"[39m[33m;[39minher
+its[33m:[39m[36mfals
+e[39m}[33m@[39mprope
+rty [33m--[39mtw[33m
+-[39mshadow{syntax[33
+m:[39m[32m"*"[39m[3
+3m;[39minherits[33m:
+[39m[36mfalse[39m[33
+m;[39minitial[33m-[3
+9mvalue[33m:[39m[35m
+0[39m [35m0[39m [33
+m#[39m[35m0000[39m}
+[33m@[39mproperty [33
+m--[39mtw[33m-[39msh
+adow[33m-[39mcolor{sy
+ntax[33m:[39m[32m"*"
+[39m[33m;[39minherit
+s[33m:[39m[36mfalse
+[39m}[33m@[39mpropert
+y [33m--[39mtw[33m-
+[39mshadow[33m-[39mal
+pha{syntax[33m:[39m[
+32m"<percentage>"[39m
+[33m;[39minherits[33m
+:[39m[36mfalse[39m[
+33m;[39minitial[33m-
+[39mvalue[33m:[39m[3
+5m100[39m[33m%[39m}
+[33m@[39mproperty [33
+m--[39mtw[33m-[39min
+set[33m-[39mshadow{sy
+ntax[33m:[39m[32m"*"
+[39m[33m;[39minherit
+s[33m:[39m[36mfalse
+[39m[33m;[39minitial
+[33m-[39mvalue[33m:[
+39m[35m0[39m 
+[35m0[39m [33m#[39m
+[35m0000[39m}[33m@[
+39mproperty [33m--[39
+mtw[33m-[39minset[33
+m-[39mshadow[33m-[39
+mcolor{syntax[33m:[39
+m[32m"*"[39m[33m;[3
+9minherits[33m:[39m[
+36mfalse[39m}[33m@[3
+9mproperty [33m--[39m
+tw[33m-[39minset[33m
+-[39mshadow[33m-[39m
+alpha{syntax[33m:[39m
+[32m"<percentage>"[39
+m[33m;[39minherits[3
+3m:[39m[36mfalse[39m
+[33m;[39minitial[33m
+-[39mvalue[33m:[39m
+[35m100[39m[33m%[39m
+}[33m@[39mproperty [
+33m--[39mtw[33m-[39m
+ring[33m-[39mcolor{sy
+ntax[33m:[39m[32m"*"
+[39m[33m;[39minherit
+s[33m:[39m[36mfalse
+[39m}[33m@[39mpropert
+y [33m--[39mtw[33m-
+[39mring[33m-[39mshad
+ow{syntax[33m:[39m[3
+2m"*"[39m[33m;[39min
+herits[33m:[39m[36mf
+alse[39m[33m;[39mini
+tial[33m-[39mvalue[3
+3m:[39m[35m0[39m 
+[35m0[39m [33m#[39m
+[35m0000[39m}[33m@[
+39mproperty [33m--[39
+mtw[33m-[39minset[33
+m-[39mring[33m-[39mc
+olor{syntax[33m:[39m
+[32m"*"[39m[33m;[39m
+inherits[33m:[39m[36
+mfalse[39m}[33m@[39m
+property [33m--[39mtw
+[33m-[39minset[33m-
+[39mring[33m-[39mshad
+ow{syntax[33m:[39m[3
+2m"*"[39m[33m;[39min
+herits[33m:[39m[36mf
+alse[39m[33m;[39mini
+tial[33m-[39mvalue[3
+3m:[39m[35m0[39m 
+[35m0[39m [33m#[39m
+[35m0000[39m}[33m@[
+39mproperty [33m--[39
+mtw[33m-[39mring[33m
+-[39minset{syntax[33m
+:[39m[32m"*"[39m[33
+m;[39minherits[33m:[
+39m[36mfalse[39m}[33
+m@[39mproperty [33m--
+[39mtw[33m-[39mring
+[33m-[39moffset[33m-
+[39mwidth{syntax[33m:
+[39m[32m"<length>"[39
+m[33m;[39minherits[3
+3m:[39m[36mfalse[39m
+[33m;[39minitial[33m
+-[39mvalue[33m:[39m
+[35m0[39m}[33m@[39mp
+roperty [33m--[39mtw
+[33m-[39mring[33m-[3
+9moffset[33m-[39mcolo
+r{syntax[33m:[39m[32
+m"*"[39m[33m;[39minh
+erits[33m:[39m[36mfa
+lse[39m[33m;[39minit
+ial[33m-[39mvalue[33
+m:[39m[33m#[39mfff}
+[33m@[39mproperty [33
+m--[39mtw[33m-[39mri
+ng[33m-[39moffset[33
+m-[39mshadow{syntax[3
+3m:[39m[32m"*"[39m[
+33m;[39minherits[33m:
+[39m[36mfalse[39m[3
+3m;[39minitial[33m-[
+39mvalue[33m:[39m[35
+m0[39m [35m0[39m [3
+3m#[39m[35m0000[39m}
+[33m@[39mproperty [3
+3m--[39mtw[33m-[39mb
+lur{syntax[33m:[39m[
+32m"*"[39m[33m;[39mi
+nherits[33m:[39m[36m
+false[39m}[33m@[39mp
+roperty [33m--[39mtw
+[33m-[39mbrightness{sy
+ntax[33m:[39m[32m"*"
+[39m[33m;[39minherit
+s[33m:[39m[36mfalse
+[39m}[33m@[39mpropert
+y [33m--[39mtw[33m-
+[39mcontrast{syntax[33
+m:[39m[32m"*"[39m[3
+3m;[39minherits[33m:
+[39m[36mfalse[39m}[3
+3m@[39mproperty [33m-
+-[39mtw[33m-[39mgray
+scale{syntax[33m:[39m
+[32m"*"[39m[33m;[39
+minherits[33m:[39m[3
+6mfalse[39m}[33m@[39
+mproperty [33m--[39mt
+w[33m-[39mhue[33m-[
+39mrotate{syntax[33m:
+[39m[32m"*"[39m[33m;
+[39minherits[33m:[39
+m[36mfalse[39m}[33m@
+[39mproperty [33m--[
+39mtw[33m-[39minvert{
+syntax[33m:[39m[32m"
+*"[39m[33m;[39minher
+its[33m:[39m[36mfals
+e[39m}[33m@[39mprope
+rty [33m--[39mtw[33m
+-[39mopacity{syntax[3
+3m:[39m[32m"*"[39m[
+33m;[39minherits[33m:
+[39m[36mfalse[39m}[
+33m@[39mproperty [33m
+--[39mtw[33m-[39msat
+urate{syntax[33m:[39m
+[32m"*"[39m[33m;[39
+minherits[33m:[39m[3
+6mfalse[39m}[33m@[39
+mproperty [33m--[39mt
+w[33m-[39msepia{synta
+x[33m:[39m[32m"*"[3
+9m[33m;[39minherits[
+33m:[39m[36mfalse[39
+m}[33m@[39mproperty 
+[33m--[39mtw[33m-[39
+mdrop[33m-[39mshadow{
+syntax[33m:[39m[32m"
+*"[39m[33m;[39minher
+its[33m:[39m[36mfals
+e[39m}[33m@[39mprope
+rty [33m--[39mtw[33m
+-[39mdrop[33m-[39msh
+adow[33m-[39mcolor{sy
+ntax[33m:[39m[32m"*"
+[39m[33m;[39minherit
+s[33m:[39m[36mfalse
+[39m}[33m@[39mpropert
+y [33m--[39mtw[33m-
+[39mdrop[33m-[39mshad
+ow[33m-[39malpha{synt
+ax[33m:[39m[32m"<per
+centage>"[39m[33m;[3
+9minherits[33m:[39m[
+36mfalse[39m[33m;[39
+minitial[33m-[39mvalu
+e[33m:[39m[35m100[3
+9m[33m%[39m}[33m@[3
+9mproperty [33m--[39m
+tw[33m-[39mdrop[33m-
+[39mshadow[33m-[39ms
+ize{syntax[33m:[39m[
+32m"*"[39m[33m;[39mi
+nherits[33m:[39m[36m
+false[39m}[33m@[39mp
+roperty [33m--[39mtw
+[33m-[39mduration{synt
+ax[33m:[39m[32m"*"[
+39m[33m;[39minherits
+[33m:[39m[36mfalse[3
+9m}[33m@[39mproperty 
+[33m--[39mtw[33m-[3
+9mscale[33m-[39mx{syn
+tax[33m:[39m[32m"*"
+[39m[33m;[39minherits
+[33m:[39m[36mfalse[
+39m[33m;[39minitial[
+33m-[39mvalue[33m:[3
+9m[35m1[39m}[33m@[3
+9mproperty [33m--[39m
+tw[33m-[39mscale[33m
+-[39my{syntax[33m:[3
+9m[32m"*"[39m[33m;[
+39minherits[33m:[39m
+[36mfalse[39m[33m;[3
+9minitial[33m-[39mval
+ue[33m:[39m[35m1[39
+m}[33m@[39mproperty 
+[33m--[39mtw[33m-[39
+mscale[33m-[39mz{synt
+ax[33m:[39m[32m"*"[
+39m[33m;[39minherits
+[33m:[39m[36mfalse[3
+9m[33m;[39minitial[3
+3m-[39mvalue[33m:[39
+m[35m1[39m}[33m@[39
+mkeyframes ping{[35m75
+[39m[33m%[39m[33m,
+[39mto{opacity[33m:[3
+9m[35m0[39m[33m;[39
+mtransform[33m:[39msc
+ale([35m2[39m)}}[33m
+@[39mkeyframes pulse{
+[35m50[39m[33m%[39m{
+opacity[33m:[39m[35m
+.5[39m}}
+ [90m   |[39m        
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                  [31m
+[1m^[22m[39m[0m
+
+Unexpected token Functi
+on("scroll-state")
+
+Import trace:
+  Client Component 
+Browser:
+    ./kinetic-prototype
+/app/globals.css 
+[Client Component 
+Browser]
+    ./kinetic-prototype
+/app/layout.tsx 
+[Server Component]
+
+
+    at <unknown> (./kin
+etic-prototype/app/glob
+als.css:2:29213)
