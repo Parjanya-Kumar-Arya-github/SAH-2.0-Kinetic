@@ -1,6 +1,12 @@
+// route.ts
+// This file acts as the AI backend handler for KINETIC.
+// It receives user messages alongside their simulated decentralized state (wallet address, IPFS sync status, memory vault).
+
 import { createOpenAI } from '@ai-sdk/openai';
 import { streamText } from 'ai';
 
+// Array of fallback API keys.
+// The handler will attempt to use these sequentially if rate limits or authentication errors occur.
 const KEYS = [
   process.env.GROQ_API_KEY,
   process.env.GROQ_API_KEY_1,
@@ -9,23 +15,32 @@ const KEYS = [
 
 export async function POST(req: Request) {
   try {
+    // 1. Data Ingestion: Extract the conversation history and the user's sovereign state payload.
     const { messages, walletAddress, memoryVault, ipfsStatus } = await req.json();
 
+    // Sanitize inbound messages to ensure robust processing by the LLM SDK.
     const cleanMessages = messages.map((m: any) => ({
       role: m.role === 'user' ? 'user' : 'assistant',
       content: typeof m.content === 'string' ? m.content : ""
     }));
 
+    // Format the simulated IPFS vault contents into a bulleted string.
     const vaultString = memoryVault?.map((m: any) => `- ${m.fact}`).join("\n") || "";
 
     if (!KEYS || KEYS.length === 0) {
       return new Response(JSON.stringify({ error: "No API keys configured." }), { status: 500 });
     }
 
+    // 2. Resiliency Loop: Attempt to fulfill the AI request using available API keys.
     for (const [index, key] of KEYS.entries()) {
       try {
+        // Initialize the custom OpenAI-compatible client pointing to Groq's high-speed inference engine.
         const groq = createOpenAI({ baseURL: 'https://api.groq.com/openai/v1', apiKey: key as string });
 
+        // 3. Dynamic Prompt Injection:
+        // This is the core of KINETIC's logic. If the user's vector state (simulated IPFS) is connected,
+        // their vault memories are seamlessly injected into the LLM's system prompt.
+        // If not connected, the AI operates in a strict anonymous/"stateless" mode and refuses personalized context.
         const systemPrompt = ipfsStatus === 'connected'
           ? `You are KINETIC. DECRYPTED_VAULT: ${vaultString}. 
              - Respond in fluid, natural prose. 
@@ -34,23 +49,18 @@ export async function POST(req: Request) {
              - For lists, use bold titles and double new lines.`
           : "VAULT_LOCKED. You have no identity data. Refuse to discuss user-specific state.";
 
+        // 4. Inference Execution: Stream the completion back to the client using the lightning-fast LLaMA model on Groq.
         const result = await streamText({
           model: groq.chat('llama-3.3-70b-versatile'),
           system: systemPrompt,
           messages: cleanMessages,
         });
 
-        // Use toDataStreamResponse() since ai version >= 3 usually recommends it,
-        // or whatever was working earlier. If toDataStreamResponse throws TS error, we will know.
-        // Actually, previous chat logs say "The error message suggests using toTextStreamResponse instead." or "toDataStreamResponse does not exist".
-        // Looking at Conversation 6c648265-a7f2-4f17-acce-fe8058ce6e19, it says use `toDataStreamResponse` error because it uses `toTextStreamResponse`.
-        // Then later Conversation 66d3097a-0107-46ee-af4d-afdbc41c908d says "return result.toDataStreamResponse() to ensure...".
-        // The original code here used `toUIMessageStreamResponse()`. Let's stick to what was there unless it fails, but falling back to toDataStreamResponse() might be better.
-        // Let's use result.toDataStreamResponse() which is standard for ai-sdk/react useChat.
-        // Wait, the file currently has `toUIMessageStreamResponse()`. I'll leave it as whatever it was, or `toDataStreamResponse()`. Let's just return what they had, but fix the missing return paths.
-
+        // 5. Response Streaming: Return a UI-compatible stream response for smooth frontend rendering.
+        // Fallback or specific SDK formatting is maintained here per previous iteration decisions.
         return result.toUIMessageStreamResponse();
       } catch (e) {
+        // If the current key fails and it's not the last one, loop continues to the next key.
         if (index === KEYS.length - 1) {
           throw e; // goes to outer catch
         }

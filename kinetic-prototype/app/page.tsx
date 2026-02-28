@@ -31,14 +31,22 @@ function StatusBadge() {
   );
 }
 
+// ----------------------------------------------------------------------------
+// HOME PAGE COMPONENT
+// This is the core interface for KINETIC. It handles the wallet connection,
+// the simulated IPFS sync toggle, local memory vault management, and chat UI.
+// ----------------------------------------------------------------------------
 export default function Home() {
-  // --- STRICT LOGIC PRESERVATION ---
+  // 1. STATE MANAGEMENT
+  // Extracts the connected user's public key from the Solana wallet adapter
   const { publicKey } = useWallet();
 
   const [isMounted, setIsMounted] = useState(false);
   const [isSyncing, setIsSyncing] = useState(false);
-  const [isIpfsSynced, setIsIpfsSynced] = useState(false);
+  const [isIpfsSynced, setIsIpfsSynced] = useState(false); // Controls whether AI sees memory
   const [vaultMemories, setVaultMemories] = useState<any[]>([]);
+  // 2. THEME AND UI STATE
+  // Manages the dark/light mode preference, persisting it to localStorage.
   const [theme, setTheme] = useState<'light' | 'dark'>('light');
 
   const toggleTheme = () => {
@@ -55,6 +63,8 @@ export default function Home() {
     }
   };
 
+  // 3. AUDIO FEEDBACK
+  // Generates a synthesized "hydration" sound when the wallet connects and state is loaded.
   const playHydrationSound = () => {
     const audioCtx = new (window.AudioContext || (window as any).webkitAudioContext)();
     const oscillator = audioCtx.createOscillator();
@@ -74,6 +84,7 @@ export default function Home() {
     oscillator.stop(audioCtx.currentTime + 0.3);
   };
 
+  // 4. INITIALIZATION (Theme & Visuals)
   useEffect(() => {
     const savedTheme = localStorage.getItem('kinetic-theme') as 'light' | 'dark' | null;
     if (savedTheme) {
@@ -91,6 +102,7 @@ export default function Home() {
       document.documentElement.classList.remove('light');
     }
 
+    // Load the custom CSS Houdini paint worklet for the dynamic background animation
     if (typeof window !== 'undefined' && 'paintWorklet' in (CSS as any)) {
       try {
         (CSS as any).paintWorklet.addModule('https://unpkg.com/css-houdini-ringparticles/dist/ringparticles.js');
@@ -101,6 +113,8 @@ export default function Home() {
     setIsMounted(true);
   }, []);
 
+  // 5. MEMORY PARSING (Neural Identity)
+  // Scans the local vault for specific phrases to extract the user's name for a personalized UI.
   const userName = useMemo(() => {
     for (const mem of vaultMemories) {
       const match = mem.fact.match(/(?:my name is|i am|i'm called)\s+([A-Za-z]+)/i);
@@ -127,6 +141,8 @@ export default function Home() {
     return `${base58.slice(0, 4)}...${base58.slice(-4)}`;
   }, [publicKey, userName]);
 
+  // 6. AI CHAT INTEGRATION
+  // Initializes the Vercel AI SDK chat interface pointing to our custom Groq endpoint.
   const { messages, status, sendMessage } = useChat({
     transport: new DefaultChatTransport({
       api: "/api/chat",
@@ -140,30 +156,39 @@ export default function Home() {
     setInput(e.target.value);
   };
 
+  // 7. CORE KINETIC WORKFLOW (The "Sovereign Submit")
+  // This interceptor handles user messages before they reach the AI.
+  // It writes the user's message to the local storage vault (acting as a decentralized memory vector)
+  // and then forwards the message AND the entire vault state to the AI backend.
   const onSovereignSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     const currentInput = input || "";
     if (!currentInput.trim() || isLoading || !publicKey) return;
 
+    // A. Read existing state
     const vaultKey = `kinetic_vault_${publicKey.toBase58()}`;
     const currentVault = JSON.parse(localStorage.getItem(vaultKey) || "[]");
 
+    // B. Append new memory and save locally
     const updatedVault = [...currentVault, { fact: currentInput.trim(), timestamp: Date.now() }];
     localStorage.setItem(vaultKey, JSON.stringify(updatedVault));
     setVaultMemories(updatedVault);
 
+    // C. Dispatch to LLM with full context payload
     sendMessage({
       text: input.trim()
     }, {
       body: {
         walletAddress: publicKey.toBase58(),
-        memoryVault: isIpfsSynced ? updatedVault : [],
+        memoryVault: isIpfsSynced ? updatedVault : [], // Only send memory if "synced"
         ipfsStatus: isIpfsSynced ? 'connected' : 'disconnected'
       }
     });
     setInput("");
   };
 
+  // 8. IPFS SIMULATION
+  // Simulates the delay of pinning the local state to IPFS.
   const handleIpfsSync = () => {
     setIsSyncing(true);
 
@@ -173,6 +198,8 @@ export default function Home() {
     }, 2000);
   };
 
+  // 9. VAULT HYDRATION
+  // Re-loads the user's specific memory vault when their wallet connects.
   useEffect(() => {
     if (publicKey && isMounted) {
       const vaultKey = `kinetic_vault_${publicKey.toBase58()}`;

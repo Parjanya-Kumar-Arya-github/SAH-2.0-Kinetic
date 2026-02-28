@@ -13,6 +13,9 @@ const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
 });
+// layout.tsx
+// This file serves as the Root Layout for the Next.js application.
+// It wraps the entire application with global styles, fonts, and critical context providers.
 
 export const metadata: Metadata = {
   title: "KINETIC - by Erastus",
@@ -21,6 +24,9 @@ export const metadata: Metadata = {
   icons: {
     icon: "/logo.png",
   },
+  manifest: "/manifest.json",
+  themeColor: "#4f46e5",
+  viewport: "width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0",
 };
 
 export default function RootLayout({
@@ -34,6 +40,11 @@ export default function RootLayout({
         suppressHydrationWarning
         className={`${geistSans.variable} ${geistMono.variable} antialiased bg-slate-950 text-slate-50`}
       >
+        {/*
+          WalletContextProvider wraps the app to provide Solana wallet connection state.
+          This is the foundational layer that allows Kinetic to link a physical wallet 
+          to the simulated on-chain/IPFS state vector.
+        */}
         <WalletContextProvider>{children}</WalletContextProvider>
       </body>
     </html>
