@@ -63,3 +63,5 @@ Kinetic uses a **Separation of Concerns** architecture to balance speed (Web2) a
 ```bash
 git clone [https://github.com/parjanya-arya/kinetic-protocol.git](https://github.com/parjanya-arya/kinetic-protocol.git)
 cd kinetic-protocol
+npm install
+npm run dev
