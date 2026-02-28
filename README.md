@@ -4,7 +4,6 @@
 
 Kinetic is a hybrid Web3/AI protocol that decouples **Intelligence (Model)** from **Memory (State)**. It anchors AI personality, learning history, and context to a **Solana NFT**, allowing users to own their AI's "Soul" and transfer it between applications, just like plugging a USB drive into a different computer.
 
-![Architecture](https://via.placeholder.com/800x400?text=Kinetic+Protocol+Architecture+Hybrid+Model)
 
 ## System Architecture
 
