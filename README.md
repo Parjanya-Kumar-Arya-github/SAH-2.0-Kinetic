@@ -64,3 +64,9 @@ git clone [https://github.com/parjanya-arya/kinetic-protocol.git](https://github
 cd kinetic-protocol
 npm install
 npm run dev
+```
+
+### 2. Create your .env.local
+```bash
+GROQ_API_KEY=your_primary_key
+```
